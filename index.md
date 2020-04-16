@@ -2,7 +2,7 @@
 ---
 <img id="portrait" src="assets/me.jpg" alt="profile picture">
 
-Hello! I'm Marc. I'm currently a student at Northeastern University, studying Computer Science in the Artificial Intelligence track.
+**Hello! I'm Marc. I'm currently a student at Northeastern University, studying Computer Science in the Artificial Intelligence track.**
 
 In the past, I have been heavily involved in full stack web and mobile development. These days I am more interested in back-end development, data science, ML/DL, and quantum computing.
 

@@ -5,10 +5,10 @@ description: What Marc Bacvanski Is Up To
 nav-links:
   - name: Home
     url: /
-  - name: Links
-    url: /links
   - name: Blog
     url: /blog
+  - name: Links
+    url: /links
 
 markdown: kramdown
 highlighter: rouge

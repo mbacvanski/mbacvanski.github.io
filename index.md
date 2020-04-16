@@ -1,6 +1,5 @@
 ---
 ---
-
 <img id="portrait" src="assets/me.jpg" alt="profile picture">
 
 Hello! I'm Marc. I'm currently a student at Northeastern University, studying Computer Science in the Artificial Intelligence track.

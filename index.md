@@ -16,6 +16,12 @@ I love startups, case competitions, hip hop dance, photography, learning new thi
 - 📚Attending classes at Northeastern University
 - 🔬Studying quantum computing for fun
 
+## Recently
+
+- 🏙Founder and lead organizer of the [MVHacks Hackathon](https://mvhacks.io/)
+- 👨‍💻Lead software developer at [Deuce Technologies](https://deuce.technology/)
+
+
 ## Let's Connect!
 
 Feel free to reach out to me on [LinkedIn](https://linkedin.com/in/mbacvanski), 

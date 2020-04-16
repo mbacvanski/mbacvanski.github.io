@@ -1,0 +1,35 @@
+# things you probably want to change
+url: https://mbacvanski.github.io
+title: Marc Bacvanski
+description: What Marc Bacvanski Is Up To
+nav-links:
+  - name: Home
+    url: /
+  - name: About
+    url: /about
+  - name: Blog
+    url: /blog
+
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+
+defaults:
+  - # applies the default layout to all files in the project
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  - # sets is_post=true for all blog posts
+    scope:
+      path: ""
+      type: posts
+    values:
+      is_post: true
+permalink: /:title # so we have /about instead of /about.html, and /blog-post instead of /2019-11-22-blog-post.html
+
+sass:
+  style: compressed # compress the CSS file generated from the SCSS styles file

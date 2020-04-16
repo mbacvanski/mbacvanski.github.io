@@ -37,6 +37,7 @@ title: Links
 ## Art & Design
 * [The Moving Poster](http://www.themovingposter.com/) - an exhibit of techniques in the unique medium of moving posters
 * [Swissmiss](https://www.swiss-miss.com/)
+* [Hiroshi Kondo](http://stnw.org/)
 
 ## Photo
 

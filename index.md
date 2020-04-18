@@ -12,14 +12,14 @@ I love startups, case competitions, hip hop dance, photography, learning new thi
 
 - 🦠 Working with the [Coronavirus Visualization Team](https://scholar.harvard.edu/cvt/about) on data analysis for COVID-19
 - 🔎 Venture analyst at Northeastern's [IDEA Venture Accelerator](https://www.northeastern.edu/idea/)
-- 🔥 Creating an interactive [vibe alignment chart for Boston](https://mbacvanski.github.io/vibe-of-boston/) (work in progress!)
 - 📚 Attending classes at Northeastern University
-- 🔬 Studying quantum computing for fun
+- 🔬 Learning quantum computing
 
 ## Recently
 
-- 🏙 Founder and lead organizer of the [MVHacks Hackathon](https://mvhacks.io/)
+- 🔥 Created an interactive [vibe alignment chart for Boston](/vibe-of-boston)
 - 👨‍💻 Lead software developer at [Deuce Technologies](https://deuce.technology/)
+- 🏙 Founder and lead organizer of the [MVHacks Hackathon](https://mvhacks.io/)
 
 
 ## Let's Connect!

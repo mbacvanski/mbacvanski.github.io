@@ -1,3 +1,7 @@
+---
+title: Vibe of Boston
+---
+
 ![Vibe of Boston](/assets/vibe-of-boston/overview.png)
 I recently worked on a [very exciting project](github.com/mbacvanski/vibe-of-boston/) with my friend Vedant Rautela.
 

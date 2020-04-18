@@ -29,7 +29,7 @@ defaults:
       type: posts
     values:
       is_post: true
-#permalink: /:title # so we have /about instead of /about.html, and /blog-post instead of /2019-11-22-blog-post.html
+permalink: /blog/:title
 
 sass:
   style: compressed # compress the CSS file generated from the SCSS styles file

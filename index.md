@@ -17,7 +17,7 @@ I love startups, case competitions, hip hop dance, photography, learning new thi
 
 ## Recently
 
-- 🔥 Created an interactive [vibe alignment chart for Boston](/vibe-of-boston)
+- 🔥 Created an interactive [vibe alignment chart for Boston](/blog/vibe-of-boston)
 - 👨‍💻 Lead software developer at [Deuce Technologies](https://deuce.technology/)
 - 🏙 Founder and lead organizer of the [MVHacks Hackathon](https://mvhacks.io/)
 

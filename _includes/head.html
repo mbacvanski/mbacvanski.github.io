@@ -1,23 +1,37 @@
 <!DOCTYPE html>
-    <head>
-        <meta charset="utf-8">
-        <title>{{ site.title }}</title>
-        <meta name="description" content="{{ site.description }}">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-		<link rel="stylesheet" href="{{ '/styles/styles.css' | prepend:site.url }}">
-        <link rel="stylesheet" href="{{ '/styles/syntax.css' | prepend:site.url }}">
+<head>
+	<meta charset="utf-8">
+	<title>{{ site.title }}</title>
+	<meta name="description" content="{{ site.description }}">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<link rel="stylesheet" href="{{ '/styles/styles.css' | prepend:site.url }}">
+	<link rel="stylesheet" href="{{ '/styles/syntax.css' | prepend:site.url }}">
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163967035-1"></script>
+	<script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'UA-163967035-1');
+	</script>
 
 </head>
-    
-    <body class="markdown-body">
-        <div id="container" class="markdown-body">
-            <h1 class="global-title">{{ site.title }}‍</h1>
-            {% if site.nav-links %}
-            <nav>
-                <ul>
-                    {% for link in site.nav-links %}
-                    <li><a href="{{ link.url | prepend:site.url }}">{{ link.name }}</a></li>
-                    {% endfor %}
-                </ul>
-            </nav>
-            {% endif %}
+
+<body class="markdown-body">
+<div id="container" class="markdown-body">
+	<h1 class="global-title">{{ site.title }}‍</h1>
+	{% if site.nav-links %}
+	<nav>
+		<ul>
+			{% for link in site.nav-links %}
+			<li><a href="{{ link.url | prepend:site.url }}">{{ link.name }}</a></li>
+			{% endfor %}
+		</ul>
+	</nav>
+	{% endif %}

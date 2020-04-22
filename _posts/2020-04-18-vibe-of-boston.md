@@ -2,7 +2,7 @@
 title: Vibe of Boston
 ---
 
-![Vibe of Boston](/assets/vibe-of-boston/overview.png)
+![Vibe of Boston](../assets/vibe-of-boston/overview.png)
 I recently worked on a [very exciting project](github.com/mbacvanski/vibe-of-boston/) with my friend Vedant Rautela.
 
 We were inspired by the question, "Where should one stay when one visits Boston?" When we visit a new city, we don't know what to expect, but we're looking for a place to stay and explore that matches our "vibe" – our individual preferences in terms of environment, attitude, and emotional state. No single "Guide to Visiting Boston" will suffice for all of us, since our preferences are individual and unique.

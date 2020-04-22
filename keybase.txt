@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/mbacvanski
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mbacvanski.github.io
+  * I am mbacvanski (https://keybase.io/mbacvanski) on keybase.
+  * I have a public key ASD8WLyomDWUtJOI3RQKWZije4k7DuWFqgHpjyYtQzOINAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "012024e7129c933b35f4e8303e2d04ce7904d956ab76255a07af1e5b023776376e810a",
+      "host": "keybase.io",
+      "kid": "0120fc58bca8983594b49388dd140a5998a37b893b0ee585aa01e98f262d433388340a",
+      "uid": "e65ad6225546628c2f86ac2f69042019",
+      "username": "mbacvanski"
+    },
+    "merkle_root": {
+      "ctime": 1587591663,
+      "hash": "e6cb78acde11d146c43d713e4f920621b295a9c9b7a81c753a6fcd81e5c9354edd30f0b11ea5bd9c03c32e1e0a585ba8206be9ec30cf25b54b3fe69ef5f55d93",
+      "hash_meta": "45ed3b2a2d7179bd0906e019263563cdd9c483385eaff6c59daa01e7e45d69a4",
+      "seqno": 16018213
+    },
+    "service": {
+      "entropy": "rvC9igUvTcWtjVs2n16p7S0z",
+      "hostname": "mbacvanski.github.io",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.4.0"
+  },
+  "ctime": 1587591675,
+  "expire_in": 504576000,
+  "prev": "1144cb3787b1ccfd4c6bf2abd704445465444b6d5147328e9afcba8ac85aaf22",
+  "seqno": 19,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg/Fi8qJg1lLSTiN0UClmYo3uJOw7lhaoB6Y8mLUMziDQKp3BheWxvYWTESpcCE8QgEUTLN4exzP1Ma/Kr1wREVGVES21RRzKOmvy6isharyLEILhFNNW6b8/PO/pbWpdveIs2IaNdMkbc156qPsR0grccAgHCo3NpZ8RAiX7kNfTDoYYbx/SMInjiJPMc6apiZgMfpRXVGHRREFP/PZi5OUL+PA1Vz6nE9Z04FLdG7xICoDsXN6WL8FtkDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEICNK8hPBBp5Vyi2mVTkeShItRipJ6peA5bwEiY2HWid0o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mbacvanski
+
+==================================================================

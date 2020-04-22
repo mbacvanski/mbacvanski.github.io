@@ -9,6 +9,13 @@ title: Links
 * [Double-slit experiment, qubits, entanglement, quantum teleportation](http://www-inst.eecs.berkeley.edu/~cs191/sp12/notes/chap1&2.pdf) lecture notes from a class on quantum information
 * [Machine learning on quantum computers](https://github.com/Qiskit/qiskit-aqua#machine-learning) (Qiskit)
 * [The Potential Impact of Quantum Computers on Society](https://arxiv.org/pdf/1712.05380.pdf") - Ronald de Wolf (Dec 2017)
+***
+* [Grover's Algorithm, but with great introduction to qubits and quantum circuits. Insane animations.](http://twistedoakstudios.com/blog/Post2644_grovers-quantum-search-algorithm)
+* [Imaginary numbers, Julia Fractals, Mandelbrot fractals visualization](http://acko.net/blog/how-to-fold-a-julia-fractal/)
+
+## Misc
+* http://acko.net/blog/model-view-catharsis/
+* 
 
 ## General Reading
 * [Granta Magazine](http://granta.com/)

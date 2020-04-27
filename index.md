@@ -13,7 +13,7 @@ I love startups, case competitions, hip hop dance, photography, learning new thi
 - 🦠 Working with the [Coronavirus Visualization Team](https://scholar.harvard.edu/cvt/about) on data analysis for COVID-19
 - 🔎 Venture analyst at Northeastern's [IDEA Venture Accelerator](https://www.northeastern.edu/idea/)
 - 📚 Attending classes at Northeastern University
-- 🔬 Learning quantum computing
+- 🔬 Learning quantum computing and working on a [quantum circuit simulator in Golang](https://github.com/mbacvanski/qgo)
 
 ## Recently
 

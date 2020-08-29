@@ -4,20 +4,21 @@
 
 **Hello! I'm Marc. I'm currently a student at Northeastern University, studying Computer Science in the Artificial Intelligence track.**
 
-I am passionate about quantum computing and machine learning. In the past, I have been heavily involved in full stack web and mobile development. 
+I am pursuing quantum computing and machine learning. In the past, I have been heavily involved in full stack web and mobile development. 
 These days I am more interested in quantum computing, ML/DL, back-end development, and data science.
 
-I love startups, case competitions, hip hop dance, photography, learning new things, and using what I learn to help others.
+I love startups, case competitions, hip hop dance, jazz, playing the saxophone, photography, learning new things, and using what I learn to help others.
 
 ## Currently
 
-- 🌐 Attending IBM's Qiskit [Global Summer School](https://qiskit.org/events/summer-school/)
-- ⚛️ Taking courses on [deep learning](https://www.coursera.org/specializations/deep-learning) and [quantum computing](https://www.edx.org/course/quantum-mechanics-and-quantum-computation) 
+- 👨‍💻 Searching for a co-op position for Spring 2021! Here is a copy of my [resume](/assets/Marc%20Bacvanski%20Resume.pdf).
 - 🔎 Venture analyst at Northeastern's [IDEA Venture Accelerator](https://www.northeastern.edu/idea/)
 - 📚 Attending classes at Northeastern University
 
 ## Recently
 
+- 🌐 Received a [certificate](/assets/QGSS_QuantumExcellenceCertificate.pdf) from IBM's Qiskit [Global Summer School](https://qiskit.org/events/summer-school/)! I learned to use Qiskit to run quantum algorithms on real quantum hardware.
+- 🧠 Completed a [specialization in deep learning](https://www.coursera.org/account/accomplishments/specialization/UW7XJ2WBD4A2), where I learned how to build and apply deep neural networks, CNNs, RNNs, and sequence models. 
 - 🔥 Created an interactive [vibe alignment chart for Boston](/blog/vibe-of-boston)
 - 👨‍💻 Lead software developer at [Deuce Technologies](https://deuce.technology/)
 - 🏙 Founder and lead organizer of the [MVHacks Hackathon](https://mvhacks.io/)

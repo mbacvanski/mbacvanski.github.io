@@ -9,6 +9,8 @@ nav-links:
     url: /blog
   - name: Links
     url: /links
+  - name: Learning
+    url: /learning
 
 markdown: kramdown
 highlighter: rouge
@@ -23,12 +25,18 @@ defaults:
       path: ""
     values:
       layout: "default"
+#  - # layout that doesn't have my name big at the top
+#    scope:
+#      path: "learning"
+#    values:
+#      layout: "small_title"
   - # sets is_post=true for all blog posts
     scope:
       path: ""
       type: posts
     values:
       is_post: true
+
 permalink: /blog/:title
 
 sass:

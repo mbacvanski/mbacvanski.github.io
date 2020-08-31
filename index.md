@@ -17,8 +17,8 @@ I love startups, case competitions, hip hop dance, jazz, playing the saxophone, 
 
 ## Recently
 
-- 🌐 Received a [certificate](/assets/QGSS_QuantumExcellenceCertificate.pdf) from IBM's Qiskit [Global Summer School](https://qiskit.org/events/summer-school/)! I learned to use Qiskit to run quantum algorithms on real quantum hardware.
 - 🧠 Completed a [specialization in deep learning](https://www.coursera.org/account/accomplishments/specialization/UW7XJ2WBD4A2), where I learned how to build and apply deep neural networks, CNNs, RNNs, and sequence models. 
+- 🌐 Received a [certificate](/assets/QGSS_QuantumExcellenceCertificate.pdf) from IBM's Qiskit [Global Summer School](https://qiskit.org/events/summer-school/)! I learned to use Qiskit to run quantum algorithms on real quantum hardware.
 - 🔥 Created an interactive [vibe alignment chart for Boston](/blog/vibe-of-boston)
 - 👨‍💻 Lead software developer at [Deuce Technologies](https://deuce.technology/)
 - 🏙 Founder and lead organizer of the [MVHacks Hackathon](https://mvhacks.io/)

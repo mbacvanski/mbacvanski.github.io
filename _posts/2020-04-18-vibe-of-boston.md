@@ -1,5 +1,6 @@
 ---
 title: Vibe of Boston
+layout: blog
 ---
 
 ![Vibe of Boston](../assets/vibe-of-boston/overview.png)

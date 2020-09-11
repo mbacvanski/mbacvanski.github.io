@@ -8,6 +8,8 @@ _This isn't real-time. I usually update this every so often with a few days at o
 ### 2020-09-10
 * Checkpointing and restart versus Kubernetes's approach to [drain a node](https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/)
 * Mainframes still exist (!) and are still used today when huge amounts of memory needs to be accessed by huge amounts of processors, and for high throughput applications
+* _"The computer is the tool, computation is the principle."_ (I kinda already knew this but this is a nice way of saying it)
+* _“There are at least two kinds of games. One could be called finite, the other, infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”_ (Finite and Infinite Games, Ballantine, 1986, p. 1.)
 
 ### 2020-09-09
 * Who the AI research faculty are at Northeastern, what are the labs, and what they work on

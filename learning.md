@@ -3,6 +3,7 @@ layout: small_title
 ---
 
 # A few things I learn every day
+_This isn't real-time. I usually update this every so often with a few days at once._
 
 ### 2020-09-10
 * Checkpointing and restart versus Kubernetes's approach to [drain a node](https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/)

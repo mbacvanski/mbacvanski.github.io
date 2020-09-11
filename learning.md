@@ -13,10 +13,17 @@ layout: small_title
 * Living in a red haze all day from the wildfire smoke really messes with how you perceive time. I felt exactly like I feel at hackathons, since the luminosity of my room did not change from morning to evening.
 
 ### 2020-09-08
-* [Lambda](https://arxiv.org/pdf/cs/0404056.pdf) [calculus](https://epubs.siam.org/doi/pdf/10.1137/S0097539703432165) [for](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf) [quantum](https://link.springer.com/content/pdf/10.1007%2F978-3-319-89366-2_19.pdf) [computers](https://cs.stackexchange.com/questions/971/quantum-lambda-calculus) is insane and I need to learn more. Somehow I've managed to not hear about this before. It seems like an area orthogonal to the gate model and that is going to be super important once the hardware of quantum computing is ironed out. 
+* [Lambda](https://arxiv.org/pdf/cs/0404056.pdf) [calculus](https://epubs.siam.org/doi/pdf/10.1137/S0097539703432165) [for](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf) [quantum](https://link.springer.com/content/pdf/10.1007%2F978-3-319-89366-2_19.pdf) [computers](https://cs.stackexchange.com/questions/971/quantum-lambda-calculus) is insane and I need to learn more. Somehow I've managed to not hear about this before. It seems like an area orthogonal to the gate model and that is going to be super important once the hardware of quantum computing is ironed out.
+* SecDB is a thing. More, I cannot really say
 
 ### 2020-09-07
 * Dewey Square by Charlie Parker, on saxophone
+
+### 2020-09-06 
+* [Surprising effect](https://blog.janestreet.com/l2-regularization-and-batch-norm/) when you use both L2 Regularization and Batch Norm together
+
+### 2020-09-05
+* This [startup](https://replika.ai/) building an AI friend/therapist/romantic partner, and a [great podcast](https://www.youtube.com/watch?v=_AGPbvCDBCk) about it
 
 ### 2020-09-03
 * How to set up a custom message to greet people on your SSH server

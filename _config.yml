@@ -7,8 +7,8 @@ nav-links:
     url: /
   - name: Blog
     url: /blog
-  - name: Links
-    url: /links
+#  - name: Links
+#    url: /links
   - name: Learning
     url: /learning
 
@@ -25,11 +25,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-#  - # layout that doesn't have my name big at the top
-#    scope:
-#      path: "learning"
-#    values:
-#      layout: "small_title"
   - # sets is_post=true for all blog posts
     scope:
       path: ""

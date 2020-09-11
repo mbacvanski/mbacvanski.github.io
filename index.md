@@ -17,7 +17,7 @@ I love startups, case competitions, hip hop dance, jazz, playing the saxophone, 
 
 ## Recently
 
-- ⚛️ Completed [CS-191x: Quantum Mechanics and Quantum Computation](https://courses.edx.org/certificates/18fb330fda7e47ec834dafaa682a5a0b), a course from UC BerkeleyX taught by Prof. Umesh Vazirani. Topics included QFT, Grover's algorithm, Shor's algorithm, Hamiltonians, Schrödinger's equation, and manipulating physical spin qubits.
+- ⚛️ Completed [CS-191x: Quantum Mechanics and Quantum Computation](https://courses.edx.org/certificates/18fb330fda7e47ec834dafaa682a5a0b), a course from UC BerkeleyX taught by Prof. Umesh Vazirani. Topics included the Quantum Fourier Transform, Grover's algorithm, Shor's algorithm, Hamiltonians, Schrödinger's equation, and manipulating physical spin qubits.
 - 🧠 Completed a [specialization in deep learning](https://www.coursera.org/account/accomplishments/specialization/UW7XJ2WBD4A2), where I learned how to build and apply deep neural networks, CNNs, RNNs, and sequence models. 
 - 🌐 Received a [certificate](/assets/QGSS_QuantumExcellenceCertificate.pdf) from IBM's Qiskit [Global Summer School](https://qiskit.org/events/summer-school/)! I learned to use Qiskit to run quantum algorithms on real quantum hardware.
 - 🔥 Created an interactive [vibe alignment chart for Boston](/blog/vibe-of-boston)

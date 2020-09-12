@@ -1,3 +1,24 @@
-        </div>
-    </body>
+</div>
+</body>
+
+<!-- Parse the Latex divs with Katex-->
+<script type="text/javascript">
+    document.querySelectorAll('script[type=\'math/tex\']').forEach(
+        function (s) {
+            const tex = s.textContent;
+            const str = katex.renderToString(tex, {displayMode: false}); // inline
+            // s.replaceWith(str);
+            s.outerHTML = str;
+        });
+
+    document.querySelectorAll('script[type=\'math/tex; mode=display\']').forEach(
+        function (s) {
+            const tex = s.textContent;
+            const str = katex.renderToString(tex.replace(/%.*/g, ''), {displayMode: true}); // block
+            console.log('str = ' + str);
+            // s.innerHTML = str;
+            s.outerHTML = str;
+        });
+</script>
+
 </html>

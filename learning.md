@@ -3,7 +3,14 @@ layout: small_title
 ---
 
 # A few things I learn every day
-_This isn't real-time. I usually update this every so often with a few days at once._
+_This isn't real-time. I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`._
+
+### 2020-09-11
+* What a [disjoint union](https://en.wikipedia.org/wiki/Disjoint_union) is
+* The basics of [lambda calculus](https://personal.utdallas.edu/~gupta/courses/apl/lambda.pdf)
+* How we can interpret [quantum circuits as higher order functions](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf) (!!!)
+* How to [add LaTeX equations to this blog](https://github.com/mbacvanski/mbacvanski.github.io/commit/4aaa8bc833425b62fd3952aa31ae7791f799b3db) so that you can see the lovely next bullet
+* One can think of quantum state teleportation as $$ g(f(\vert\phi\rangle)) = \vert\phi\rangle $$, and its inverse of teleporting classical bits, as $$ f(g(x, y)) = (x,y) $$ when $$ f:qbit \rightarrow bit\; \otimes\; bit $$, $$ g:bit\;\otimes\;bit \rightarrow qbit $$. $$f$$ is located at the sender, while $$g$$ is located at the receiver (in state teleportation). ___Beautiful.___
 
 ### 2020-09-10
 * Checkpointing and restart versus Kubernetes's approach to [drain a node](https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/)

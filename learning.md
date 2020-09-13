@@ -5,6 +5,11 @@ layout: small_title
 # A few things I learn every day
 _This isn't real-time. I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`._
 
+### 2020-09-12
+* How to play codenames
+* [Silq](https://silq.ethz.ch/) is a cool and hip high level quantum programming language which has the unique feature of automatic uncomputation
+* NORMALIZE PROGRAMMING WITH EXPLICIT PRECONDITIONS AND POSTCONDITIONS!!! 
+
 ### 2020-09-11
 * What a [disjoint union](https://en.wikipedia.org/wiki/Disjoint_union) is
 * The basics of [lambda calculus](https://personal.utdallas.edu/~gupta/courses/apl/lambda.pdf)

@@ -5,6 +5,11 @@ layout: small_title
 # A few things I learn every day
 _This isn't real-time. I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`._
 
+### 2020-09-13
+* Stoicism and Seneca (added to my reading list)
+* The independent set problem and some applications to things like interval scheduling and bipartite matching
+* What my would-be-roomates' dorm in Boston looks like (it's nice!)
+
 ### 2020-09-12
 * How to play codenames
 * [Silq](https://silq.ethz.ch/) is a cool and hip high level quantum programming language which has the unique feature of automatic uncomputation

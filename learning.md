@@ -5,7 +5,44 @@ layout: small_title
 # A few things I learn every day
 _This isn't real-time. I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`._
 
+### 2019-09-21
+* `malloc` vs `alloca`
+* How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an O(n^2) solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this study](https://www.ccs.neu.edu/home/camato/publications/icra2019_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
+* In that study, they use a POMDP by defining:
+	* Set of world states (the objects on the table)
+	* Set of actions (moving an object, moving the robot camera location/angle)
+	* Set of observations (using R-CNN model to recognize bounding boxes for objects on the table)
+	* State transition function, defining the probability distribution of new states after taking some action (moving an item) under the current state
+	* Observation function, defining the probability distribution of possible observations (arrangements of obscured objects) given the resulting state and an action. Follows from the state transition function.
+	* Reward function, giving a valued-reward for taking certain actions like finding the correct item.
+
+### 2019-09-20
+
+* How to play Among Us
+* [Lilly impellers](https://www.treehugger.com/the-lily-impeller-nature-based-design-inspires-game-changing-efficiencies-4863361)
+
+### 2019-09-19
+
+* [Karatsuba algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm) for fast multiplication
+
+### 2020-09-17
+* Pointer arithmetic for array access in C++
+* How to get Outlook to not delete event invitations after you accept them (it's in settings, under Settings => Calendar => Events and invitations => Delete invitations and responses...)
+
+### 2020-09-16
+* Using the stack and safe registers in assembly
+* [The Line](https://granta.com/the-line/): a short story by Amor Towles, the author of one of my recent favorite books, *A Gentleman in Moscow*.
+
+### 2020-09-15
+* How to use GDB for debugging assembly programs
+* You will segfault if you call `printf` on a format string with the wrong specifiers :(
+
+### 2020-09-14
+* The difference between function calls and labels in assembly
+* SSH port forwarding from Virtualbox to host
+
 ### 2020-09-13
+
 * Stoicism and Seneca (added to my reading list)
 * The independent set problem and some applications to things like interval scheduling and bipartite matching
 * What my would-be-roomates' dorm in Boston looks like (it's nice!)

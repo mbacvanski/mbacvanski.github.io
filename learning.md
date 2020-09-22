@@ -7,8 +7,8 @@ _This isn't real-time. I usually update this every so often with a few days at o
 
 ### 2019-09-21
 * `malloc` vs `alloca`
-* How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an O(n^2) solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this study](https://www.ccs.neu.edu/home/camato/publications/icra2019_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
-* In that study, they use a POMDP by defining:
+* How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an O(n^2) solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this paper](https://www.ccs.neu.edu/home/camato/publications/icra2019_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
+* In that paper, they use a POMDP by defining:
 	* Set of world states (the objects on the table)
 	* Set of actions (moving an object, moving the robot camera location/angle)
 	* Set of observations (using R-CNN model to recognize bounding boxes for objects on the table)

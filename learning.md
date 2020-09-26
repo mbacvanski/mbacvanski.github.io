@@ -10,6 +10,7 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 ### 2019-09-26
 
+* Github [refuses](https://talk.jekyllrb.com/t/katex-not-working-on-github-pages/4468/5) to use [KaTex](https://katex.org/) with Jekyll, switched over to just [mathjax](https://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html).
 * 
 
 ### 2019-09-25
@@ -30,14 +31,14 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 ### 2019-09-22
 
-* How the [median of medians](https://en.wikipedia.org/wiki/Median_of_medians) algorithm works to produce the approximate median in O(n) time
+* How the [median of medians](https://en.wikipedia.org/wiki/Median_of_medians) algorithm works to produce the approximate median in $$O(n)$$ time
 * How to [write a news article](https://www.theguardian.com/science/the-lay-scientist/2010/sep/24/1) about a scientific paper 🙃
 * [Quagga](https://www.google.com/search?q=quagga)
 * After you add an ssh key to Github, you need to use the ssh url to clone the repo in order to use your ssh credentials.
 
 ### 2019-09-21
 
-* How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an O(n^2) solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this paper](https://www.ccs.neu.edu/home/camato/publications/icra2019_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
+* How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an $$O(n^2)$$ solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this paper](https://www.ccs.neu.edu/home/camato/publications/icra2019_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
 * In that paper, they use a POMDP by defining:
 	* Set of world states (the objects on the table)
 	* Set of actions (moving an object, moving the robot camera location/angle)

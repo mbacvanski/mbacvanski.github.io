@@ -1,11 +1,16 @@
 ---
 layout: small_title
 title: A Few Things I Learn Every Day
+mathjax: true
 ---
 
 I try to learn or discover something new every day. Here's a log of all the things that I get excited about!
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
+
+### 2019-09-26
+
+* 
 
 ### 2019-09-25
 

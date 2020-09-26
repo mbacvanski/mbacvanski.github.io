@@ -1,17 +1,18 @@
 ---
 layout: small_title
+title: A Few Things I Learn Every Day
 ---
 
-# A few things I learn every day
 I try to learn or discover something new every day. Here's a log of all the things that I get excited about!
 
-This probably isn't real-time. I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
+I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
 ### 2019-09-25
 
 * How to solve the [closest pair problem](https://en.wikipedia.org/wiki/Closest_pair_of_points_problem) in O(nlog(n)) time
 * Cool [bit twiddling tricks](https://graphics.stanford.edu/~seander/bithacks.html) and [crazy bit manipulations](http://realtimecollisiondetection.net/blog/?p=78)
 * Classes and inheritance in C++
+* Use the `title` attribute instead of `#h1` in this file to make sure the title doesn't appear twice. [Weird things happen](https://github.com/mmistakes/minimal-mistakes/issues/1618#issuecomment-379807051) when you use the `#h1 ` thing.
 
 ### 2019-09-24
 

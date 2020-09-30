@@ -8,10 +8,32 @@ I try to learn or discover something new every day. Here's a log of all the thin
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2019-09-29
+
+* [Algorithms](https://stackoverflow.com/questions/4325200/find-the-majority-element-in-array) for finding the majority element of a list in linear time
+* [Academictree.org](https://academictree.org/) for family trees of people in academia
+* [When to use](https://www.investopedia.com/terms/h/harmonicaverage.asp#:~:text=The%20Basics%20of%20a%20Harmonic%20Mean&text=Harmonic%20means%20are%20often%20used,weight%20to%20each%20data%20point.) the [harmonic mean](https://en.wikipedia.org/wiki/Average#Harmonic_mean)
+* Pipeline [pigs](https://en.wikipedia.org/wiki/Pigging) 🐷
+
+### 2019-09-28
+
+* Darwinism suggests that human altruism may have evolved in a way such that groups of early humans who demonstrated more altruism, were more likely to survive in violent conflicts against other groups with less altruistic traits. [This study](https://www.researchgate.net/publication/26268380_Did_Warfare_Among_Ancestral_Hunter-Gatherers_Affect_the_Evolution_of_Human_Social_Behaviors) suggests that [violence](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126589) among [early humans](https://www.nature.com/articles/nature16477) played a significant role in shaping the social dynamics of groups during the hunter-gatherer time period.
+* [Everything We Eat Both Causes And Prevents Cancer](https://academic.oup.com/ajcn/article/97/1/127/4576988)
+
+### 2019-09-27
+
+* Purpleair has a [JSON API](https://www2.purpleair.com/community/faq#hc-access-the-json) 
+* [Send SMS](https://github.com/typpo/textbelt) free, alternative to Twilio
+* Detect news articles that have corporate sponsors with [this chrome extension](https://github.com/typpo/ad-detector)
+* Wildfires have burned [**3.1 million acres**](https://www.fire.ca.gov/incidents/) in California so far this year. And fire season isn't even fully upon us.
+* [Spin cleanup](https://sci-hub.se/10.1039/D0CP03745A) for quantum phase estimation
+* 👉 [The Missing Semester Of Your CS Education](https://missing.csail.mit.edu/)
+
 ### 2019-09-26
 
 * Github [refuses](https://talk.jekyllrb.com/t/katex-not-working-on-github-pages/4468/5) to use [KaTex](https://katex.org/) with Jekyll, switched over to just [mathjax](https://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html).
-* 
+* Installing mongodb on macOS Catalina with SIP means you have to [change the data directory](https://stackoverflow.com/a/58404057/2680053) by `mongod --dbpath=/Users/<your_username>/data/db`
+* [Sigterm vs sigkill](https://major.io/2010/03/18/sigterm-vs-sigkill/) and C++ [signal handling](https://www.tutorialspoint.com/cplusplus/cpp_signal_handling.htm)
 
 ### 2019-09-25
 

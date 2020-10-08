@@ -4,9 +4,52 @@ title: A Few Things I Learn Every Day
 mathjax: true
 ---
 
-I try to learn or discover something new every day. Here's a log of all the things that I get excited about!
+I try to learn or discover something new every day. Here are some of the things that I get excited about!
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
+
+### 2019-10-07
+
+* How to play tones through a speaker connected to a GPIO pin.
+  * How would you play music, chords, or multiple tones at once?
+
+### 2019-10-06
+
+* [Neat-URL](https://github.com/Smile4ever/Neat-URL) removes trackers from your URLs
+* [Boop](https://github.com/IvanMathy/Boop) to easily do text things! Lots of useful and fun shortcuts. Hard to describe but pretty awesome.
+* [QuickJS](https://bellard.org/quickjs/) is a JavaScript runtime that starts much faster than the v8 engine used in Node.js. Could be useful for serverlessor CLI apps that need to start and stop very quickly. [Elsa](https://github.com/elsaland/elsa) is a QuickJS wrapper written in Go.
+* [DUF](https://github.com/muesli/duf) (Disk Usage Free) utility
+* Herbie Hancock gave [lectures](https://www.youtube.com/watch?v=xSFMkJQKigk) at Harvard!
+
+### 2019-10-05
+
+* C [order of operations](http://unixwiz.net/techtips/reading-cdecl.html) in type declarations
+
+### 2019-10-04
+
+* [Windcatchers](https://en.wikipedia.org/wiki/Windcatcher) are an ancient and effective way to ventilate and cool a large space, and are still great techniques to use today. [Yakhchāl](https://en.wikipedia.org/wiki/Yakhch%C4%81l)s are related and also pretty cool.
+* [Gnome sort](https://en.wikipedia.org/wiki/Gnome_sort) is an easy in-place sorting algorithm
+
+### 2019-10-03
+
+* Put commands in `/etc/rc.local` to have them run every time the system boots! Using the `@reboot` descriptor in your crontab doesn't always work, depending on the system-specific implementation of cron (it didn't on the Intel DE1-SoC board's distribution of Linux).
+* Use `cron` to schedule recurring tasks, use `anacron` to schedule recurring tasks on machines that aren't powered on all the time. Any tasks that were missed while the computer was off, will be run when it turns on again with `anacron`.
+* [Rectangle](https://github.com/rxhanson/Rectangle) for a super clean way to manage window tiling on MacOS
+
+### 2019-10-02
+
+* Handy guide to [printf](https://www.cypress.com/file/54441/download) formatting
+
+### 2019-10-01
+
+* [Linear probing](https://en.wikipedia.org/wiki/Linear_probing) for hashtables
+* [Paper](sci-hub.se/10.1017/jfm.2020.720) about the effects of ventilation on indoor spread of COVID-19. Many common ventilation approaches actually increase the risk of COVID-19 exposure indoors.
+
+### 2019-09-30
+
+* [Survey](https://uw-se-2020-class-profile.github.io/profile.pdf) of Waterloo software engineering majors on all sorts of topics, ranging from salary to personal habits. (over 100 pages long!)
+* `:set keywordprg=cppman` in vim gives you access to C++ function documentation when you press `K` over a function name
+* [Shigeo Sekito](https://en.wikipedia.org/wiki/Shigeo_Sekito), a Japanese [electone](https://en.wikipedia.org/wiki/Electone) player whose song ["ザ・ワード II"](spotify:track:3OCxOUUH3FUf8xk0RuWADJ) was sampled in Travis Scott and Quavo's song "How U Feel". Sekito's enigmatic and diverse body of works seem to be heavily influenced by jazz, blues, bop, funk, and even a bit of electronica emerging at the time. You can hear his style progress and develop, especially in his 1985 album [_アーティスティック・エレクトーン_](spotify:album:0GWl71lcfvNjbjGwv11L0X). I absolutely love his sound, and especially the [title song](spotify:track:7CKAlVKKGnMW2GiIrZyuOw) – and the album just gets better.
 
 ### 2019-09-29
 

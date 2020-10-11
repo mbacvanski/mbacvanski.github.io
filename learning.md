@@ -8,6 +8,24 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2019-10-10
+
+* `mongodump` and `mongorestore` have a `--gzip` flag to zip dumped `bson` documents
+* The [story](https://pitchfork.com/thepitch/how-a-long-lost-indian-disco-record-won-over-crate-diggers-and-cracked-the-youtube-algorithm/) behind [Aaj Shanibar](https://www.youtube.com/watch?v=HRIbkvzDSpo)
+* [Glyptodonts](https://en.wikipedia.org/wiki/Glyptodont) used to roam prehistoric Earth until probably the end of the ice age
+* *“The object of art is not to reproduce reality, but to create a reality of the same intensity.”* ーAlberto Giacometti
+
+### 2019-10-09
+
+* [Difference](https://askubuntu.com/questions/445384/what-is-the-difference-between-apt-and-apt-get) between `apt` and `apt-get`
+* How to [resize a virtualbox disk](https://askubuntu.com/a/558215/546794) image using `gparted`
+* What "[DAO](https://en.wikipedia.org/wiki/Data_access_object)" means (somehow I've never seen someone call it that before)
+* [Saol](https://www.schick-toikka.com/saol-standard) is an awesome font
+
+### 2019-10-08
+
+* How to move from one key to another using common chords
+
 ### 2019-10-07
 
 * How to play tones through a speaker connected to a GPIO pin.

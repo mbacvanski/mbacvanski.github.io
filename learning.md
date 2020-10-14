@@ -8,30 +8,52 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
-### 2019-10-10
+### 2020-10-13
+
+* The inventor of the theremin, Leo Theremin, also happened to invent [a bugging device](https://en.wikipedia.org/wiki/The_Thing_(listening_device)) concealed within a gift given by the Soviet Union to the US Ambassador's house in Moscow. 
+* [Clara Rockmore](spotify:artist:5WKWtfP2aDQAOwAvhxquPR), who plays the theremin 
+
+### 2020-10-12
+
+* About one third of press releases are exaggerated, and these get magnified in news stories. Exact results [here](https://www.bmj.com/content/349/bmj.g7015), go take a look.
+
+* Uninstall all adobe junk applications and processes with [CC Cleaner](https://helpx.adobe.com/photoshop-elements/kb/elements-installation-error-CC-cleaner-tool.html)
+
+* [Mask off](https://www.youtube.com/watch?v=NudlLKd3WW4) 
+
+* [News embargoes](https://www.scientificamerican.com/article/how-the-fda-manipulates-the-media/) mean that science reporters can only report in the ways that  publishers like the FDA allow. Embargoed news has been around since the 1920s, when it meant that science journals would offer reporters early access to papers and contact information of authors, under the condition that the reporters can only publish their story after the embargo time period expires. This would enable reporters extra time to research their story, without the fear that their story would get published by someone else first.
+
+  The **close-hold embargo** forbids reporters from contacting outside sources for commentary about news. This essentially prevents all independent reporting, allowing the journal or organization to dictate what the news says. The FDA has a history of doing this.
+
+### 2020-10-11
+
+* Cookies are passé. Browser fingerprinting is à la mode. Check if your browser is leaking your fingerprint at [Panopticlick](https://panopticlick.eff.org/), a project by the EFF.
+* I should read [Gödel, Escher, Bach](https://en.wikipedia.org/wiki/G%C3%B6del,_Escher,_Bach)
+
+### 2020-10-10
 
 * `mongodump` and `mongorestore` have a `--gzip` flag to zip dumped `bson` documents
 * The [story](https://pitchfork.com/thepitch/how-a-long-lost-indian-disco-record-won-over-crate-diggers-and-cracked-the-youtube-algorithm/) behind [Aaj Shanibar](https://www.youtube.com/watch?v=HRIbkvzDSpo)
 * [Glyptodonts](https://en.wikipedia.org/wiki/Glyptodont) used to roam prehistoric Earth until probably the end of the ice age
 * *“The object of art is not to reproduce reality, but to create a reality of the same intensity.”* ーAlberto Giacometti
 
-### 2019-10-09
+### 2020-10-09
 
 * [Difference](https://askubuntu.com/questions/445384/what-is-the-difference-between-apt-and-apt-get) between `apt` and `apt-get`
 * How to [resize a virtualbox disk](https://askubuntu.com/a/558215/546794) image using `gparted`
 * What "[DAO](https://en.wikipedia.org/wiki/Data_access_object)" means (somehow I've never seen someone call it that before)
 * [Saol](https://www.schick-toikka.com/saol-standard) is an awesome font
 
-### 2019-10-08
+### 2020-10-08
 
 * How to move from one key to another using common chords
 
-### 2019-10-07
+### 2020-10-07
 
 * How to play tones through a speaker connected to a GPIO pin.
   * How would you play music, chords, or multiple tones at once?
 
-### 2019-10-06
+### 2020-10-06
 
 * [Neat-URL](https://github.com/Smile4ever/Neat-URL) removes trackers from your URLs
 * [Boop](https://github.com/IvanMathy/Boop) to easily do text things! Lots of useful and fun shortcuts. Hard to describe but pretty awesome.
@@ -39,49 +61,49 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * [DUF](https://github.com/muesli/duf) (Disk Usage Free) utility
 * Herbie Hancock gave [lectures](https://www.youtube.com/watch?v=xSFMkJQKigk) at Harvard!
 
-### 2019-10-05
+### 2020-10-05
 
 * C [order of operations](http://unixwiz.net/techtips/reading-cdecl.html) in type declarations
 
-### 2019-10-04
+### 2020-10-04
 
 * [Windcatchers](https://en.wikipedia.org/wiki/Windcatcher) are an ancient and effective way to ventilate and cool a large space, and are still great techniques to use today. [Yakhchāl](https://en.wikipedia.org/wiki/Yakhch%C4%81l)s are related and also pretty cool.
 * [Gnome sort](https://en.wikipedia.org/wiki/Gnome_sort) is an easy in-place sorting algorithm
 
-### 2019-10-03
+### 2020-10-03
 
 * Put commands in `/etc/rc.local` to have them run every time the system boots! Using the `@reboot` descriptor in your crontab doesn't always work, depending on the system-specific implementation of cron (it didn't on the Intel DE1-SoC board's distribution of Linux).
 * Use `cron` to schedule recurring tasks, use `anacron` to schedule recurring tasks on machines that aren't powered on all the time. Any tasks that were missed while the computer was off, will be run when it turns on again with `anacron`.
 * [Rectangle](https://github.com/rxhanson/Rectangle) for a super clean way to manage window tiling on MacOS
 
-### 2019-10-02
+### 2020-10-02
 
 * Handy guide to [printf](https://www.cypress.com/file/54441/download) formatting
 
-### 2019-10-01
+### 2020-10-01
 
 * [Linear probing](https://en.wikipedia.org/wiki/Linear_probing) for hashtables
 * [Paper](sci-hub.se/10.1017/jfm.2020.720) about the effects of ventilation on indoor spread of COVID-19. Many common ventilation approaches actually increase the risk of COVID-19 exposure indoors.
 
-### 2019-09-30
+### 2020-09-30
 
 * [Survey](https://uw-se-2020-class-profile.github.io/profile.pdf) of Waterloo software engineering majors on all sorts of topics, ranging from salary to personal habits. (over 100 pages long!)
 * `:set keywordprg=cppman` in vim gives you access to C++ function documentation when you press `K` over a function name
 * [Shigeo Sekito](https://en.wikipedia.org/wiki/Shigeo_Sekito), a Japanese [electone](https://en.wikipedia.org/wiki/Electone) player whose song ["ザ・ワード II"](spotify:track:3OCxOUUH3FUf8xk0RuWADJ) was sampled in Travis Scott and Quavo's song "How U Feel". Sekito's enigmatic and diverse body of works seem to be heavily influenced by jazz, blues, bop, funk, and even a bit of electronica emerging at the time. You can hear his style progress and develop, especially in his 1985 album [_アーティスティック・エレクトーン_](spotify:album:0GWl71lcfvNjbjGwv11L0X). I absolutely love his sound, and especially the [title song](spotify:track:7CKAlVKKGnMW2GiIrZyuOw) – and the album just gets better.
 
-### 2019-09-29
+### 2020-09-29
 
 * [Algorithms](https://stackoverflow.com/questions/4325200/find-the-majority-element-in-array) for finding the majority element of a list in linear time
 * [Academictree.org](https://academictree.org/) for family trees of people in academia
 * [When to use](https://www.investopedia.com/terms/h/harmonicaverage.asp#:~:text=The%20Basics%20of%20a%20Harmonic%20Mean&text=Harmonic%20means%20are%20often%20used,weight%20to%20each%20data%20point.) the [harmonic mean](https://en.wikipedia.org/wiki/Average#Harmonic_mean)
 * Pipeline [pigs](https://en.wikipedia.org/wiki/Pigging) 🐷
 
-### 2019-09-28
+### 2020-09-28
 
 * Darwinism suggests that human altruism may have evolved in a way such that groups of early humans who demonstrated more altruism, were more likely to survive in violent conflicts against other groups with less altruistic traits. [This study](https://www.researchgate.net/publication/26268380_Did_Warfare_Among_Ancestral_Hunter-Gatherers_Affect_the_Evolution_of_Human_Social_Behaviors) suggests that [violence](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0126589) among [early humans](https://www.nature.com/articles/nature16477) played a significant role in shaping the social dynamics of groups during the hunter-gatherer time period.
 * [Everything We Eat Both Causes And Prevents Cancer](https://academic.oup.com/ajcn/article/97/1/127/4576988)
 
-### 2019-09-27
+### 2020-09-27
 
 * Purpleair has a [JSON API](https://www2.purpleair.com/community/faq#hc-access-the-json) 
 * [Send SMS](https://github.com/typpo/textbelt) free, alternative to Twilio
@@ -90,38 +112,38 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * [Spin cleanup](https://sci-hub.se/10.1039/D0CP03745A) for quantum phase estimation
 * 👉 [The Missing Semester Of Your CS Education](https://missing.csail.mit.edu/)
 
-### 2019-09-26
+### 2020-09-26
 
 * Github [refuses](https://talk.jekyllrb.com/t/katex-not-working-on-github-pages/4468/5) to use [KaTex](https://katex.org/) with Jekyll, switched over to just [mathjax](https://sgeos.github.io/github/jekyll/2016/08/21/adding_mathjax_to_a_jekyll_github_pages_blog.html).
 * Installing mongodb on macOS Catalina with SIP means you have to [change the data directory](https://stackoverflow.com/a/58404057/2680053) by `mongod --dbpath=/Users/<your_username>/data/db`
 * [Sigterm vs sigkill](https://major.io/2010/03/18/sigterm-vs-sigkill/) and C++ [signal handling](https://www.tutorialspoint.com/cplusplus/cpp_signal_handling.htm)
 
-### 2019-09-25
+### 2020-09-25
 
 * How to solve the [closest pair problem](https://en.wikipedia.org/wiki/Closest_pair_of_points_problem) in O(nlog(n)) time
 * Cool [bit twiddling tricks](https://graphics.stanford.edu/~seander/bithacks.html) and [crazy bit manipulations](http://realtimecollisiondetection.net/blog/?p=78)
 * Classes and inheritance in C++
 * Use the `title` attribute instead of `#h1` in this file to make sure the title doesn't appear twice. [Weird things happen](https://github.com/mmistakes/minimal-mistakes/issues/1618#issuecomment-379807051) when you use the `#h1 ` thing.
 
-### 2019-09-24
+### 2020-09-24
 
 * How to use malloc in assembly
 * Imposter syndrome (I might have it?)
 
-### 2019-09-23
+### 2020-09-23
 
 * How memory mapped IO works
 
-### 2019-09-22
+### 2020-09-22
 
 * How the [median of medians](https://en.wikipedia.org/wiki/Median_of_medians) algorithm works to produce the approximate median in $$O(n)$$ time
 * How to [write a news article](https://www.theguardian.com/science/the-lay-scientist/2010/sep/24/1) about a scientific paper 🙃
 * [Quagga](https://www.google.com/search?q=quagga)
 * After you add an ssh key to Github, you need to use the ssh url to clone the repo in order to use your ssh credentials.
 
-### 2019-09-21
+### 2020-09-21
 
-* How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an $$O(n^2)$$ solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this paper](https://www.ccs.neu.edu/home/camato/publications/icra2019_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
+* How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an $$O(n^2)$$ solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this paper](https://www.ccs.neu.edu/home/camato/publications/icra2020_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
 * In that paper, they use a POMDP by defining:
 	* Set of world states (the objects on the table)
 	* Set of actions (moving an object, moving the robot camera location/angle)
@@ -130,12 +152,12 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 	* Observation function, defining the probability distribution of possible observations (arrangements of obscured objects) given the resulting state and an action. Follows from the state transition function.
 	* Reward function, giving a valued-reward for taking certain actions like finding the correct item.
 
-### 2019-09-20
+### 2020-09-20
 
 * How to play Among Us
 * [Lilly impellers](https://www.treehugger.com/the-lily-impeller-nature-based-design-inspires-game-changing-efficiencies-4863361)
 
-### 2019-09-19
+### 2020-09-19
 
 * [Karatsuba's algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm) for fast multiplication
 

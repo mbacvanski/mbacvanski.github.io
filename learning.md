@@ -8,10 +8,59 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-10-21
+
+* `systemctl disable influxdb` to prevent a service from starting automatically on boot, effective next stop event (reboot).
+* Controversy over the [Mpemba effect](https://en.wikipedia.org/wiki/Mpemba_effect), where hot water freezes faster than cold water (sometimes????)
+* [Sleep Sort](https://www.geeksforgeeks.org/sleep-sort-king-laziness-sorting-sleeping/): sort a list by literally doing nothing
+* Build nice command line UIs with Go using [bubbletea](https://github.com/charmbracelet/bubbletea)
+
+### 2020-10-20
+
+* Djikstra's algorithm
+* Basics of Verilog
+* [`ctrl-z`](https://superuser.com/questions/476873/what-is-effect-of-ctrl-z-on-a-unix-linux-application) to suspend a process, and `bg` and `fg` to manage processes. [Here](https://en.wikipedia.org/wiki/Job_control_(Unix)#Implementation) is how Unix implements them with a job table.
+* The `c` shell, `csh`, [feels more like normal programming](https://en.wikipedia.org/wiki/C_shell#More_like_C) than bash
+
+### 2020-10-19
+
+* [Saudade](https://www.google.com/search?q=saudade) and [Solastalgia](https://pubmed.ncbi.nlm.nih.gov/18027145/)
+
+### 2020-10-18
+
+* NVIDIA [video codec](https://developer.nvidia.com/nvidia-video-codec-sdk) using AI
+* Data lakes in organizations easily suffer from data quality issues when the applications dumping data are not responsible for the quality of their data, the team managing and using the data lake is unable to resolve data quality issues originating upstream.
+
+### 2020-10-17
+
+* Algorithms for finding strongly connected components of graphs in linear time
+* Applying breadth-first search to bipartite coloring
+* [bat](https://github.com/sharkdp/bat) is a cat clone that does syntax highlighting and looks nice
+* Fuzzy find files with [fzf](https://github.com/junegunn/fzf)
+* [Exa](https://github.com/ogham/exa) is a cool replacement for `ls`, written in Rust
+
+### 2020-10-16
+
+* Topological sort of a graph in linear time, using discovery and finish times of depth-first search
+
+### 2020-10-15
+
+* On Unix, pipes run processes concurrently: when you run `echo hi | tail`, the shell uses forking to run both `echo hi` and `tail` at the same time, and the `stdout` file descriptor of the `echo` is the same as the file descriptor for the `stdin` of `tail`. The two ends of the pipe are in different processes, and link the `stdout` of the left hand process to the `stdin` of the right hand process. This example behaves the same as if I did `tail <(echo hi)`, but this would first run `echo hi` and then pass that output to `tail`.
+  * This is also the reason why when you do `ps -ef | grep cron`, the `grep` command you are running shows up. It would not show up in the output of `ps` if `grep` were running after `ps` completed. But because we are using piping, the `grep` process is started at the same time, and doing its work on the `stdout` of `ps`, which of course will include `grep`. 
+* Put `set follow-fork-mode child` and `set detach-on-fork off` in the gdb window in order to debug forked processes inside the CLion debugger
+  * Note: this doesn't really work very well but I don't have the time to figure out why. When a child process exits basically the whole program exits 😟
+
+### 2020-10-14
+
+* [Minterms](https://en.wikipedia.org/wiki/Canonical_normal_form)
+* Somehow disabling 3d acceleration in VirtualBox for a Ubuntu 20.04 vm fixes problems with the UI being incredibly laggy
+* [How to use `execlp`](https://stackoverflow.com/a/21559499/2680053), whose man page documentation is incredibly vague
+
 ### 2020-10-13
 
 * The inventor of the theremin, Leo Theremin, also happened to invent [a bugging device](https://en.wikipedia.org/wiki/The_Thing_(listening_device)) concealed within a gift given by the Soviet Union to the US Ambassador's house in Moscow. 
-* [Clara Rockmore](spotify:artist:5WKWtfP2aDQAOwAvhxquPR), who plays the theremin 
+* [Clara Rockmore](spotify:artist:5WKWtfP2aDQAOwAvhxquPR), who plays the theremin
+* From September 19 until today, I have been writing dates on this page as 2019 instead of 2020 🙃 Thanks to Kirpal who told me about this!
 
 ### 2020-10-12
 
@@ -22,7 +71,7 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * [Mask off](https://www.youtube.com/watch?v=NudlLKd3WW4) 
 
 * [News embargoes](https://www.scientificamerican.com/article/how-the-fda-manipulates-the-media/) mean that science reporters can only report in the ways that  publishers like the FDA allow. Embargoed news has been around since the 1920s, when it meant that science journals would offer reporters early access to papers and contact information of authors, under the condition that the reporters can only publish their story after the embargo time period expires. This would enable reporters extra time to research their story, without the fear that their story would get published by someone else first.
-
+  
   The **close-hold embargo** forbids reporters from contacting outside sources for commentary about news. This essentially prevents all independent reporting, allowing the journal or organization to dictate what the news says. The FDA has a history of doing this.
 
 ### 2020-10-11
@@ -145,12 +194,12 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 * How to use partially observable markov decision processes ([POMDP](https://en.wikipedia.org/wiki/Partially_observable_Markov_decision_process)) to efficiently search for items on a desk using a robotic manipulator, when some items obscure others. While solving for full solutions for a POMPD requires an $$O(n^2)$$ solution, using [Monte-Carlo sampling](https://papers.nips.cc/paper/4031-monte-carlo-planning-in-large-pomdps.pdf) can cut this time down dramatically, enabling **[this paper](https://www.ccs.neu.edu/home/camato/publications/icra2020_1664.pdf)** to be able to plan movements of the robotic manipulator in real time. 
 * In that paper, they use a POMDP by defining:
-	* Set of world states (the objects on the table)
-	* Set of actions (moving an object, moving the robot camera location/angle)
-	* Set of observations (using R-CNN model to recognize bounding boxes for objects on the table)
-	* State transition function, defining the probability distribution of new states after taking some action (moving an item) under the current state
-	* Observation function, defining the probability distribution of possible observations (arrangements of obscured objects) given the resulting state and an action. Follows from the state transition function.
-	* Reward function, giving a valued-reward for taking certain actions like finding the correct item.
+  * Set of world states (the objects on the table)
+  * Set of actions (moving an object, moving the robot camera location/angle)
+  * Set of observations (using R-CNN model to recognize bounding boxes for objects on the table)
+  * State transition function, defining the probability distribution of new states after taking some action (moving an item) under the current state
+  * Observation function, defining the probability distribution of possible observations (arrangements of obscured objects) given the resulting state and an action. Follows from the state transition function.
+  * Reward function, giving a valued-reward for taking certain actions like finding the correct item.
 
 ### 2020-09-20
 
@@ -162,18 +211,22 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * [Karatsuba's algorithm](https://en.wikipedia.org/wiki/Karatsuba_algorithm) for fast multiplication
 
 ### 2020-09-17
+
 * Pointer arithmetic for array access in C++
 * How to get Outlook to not delete event invitations after you accept them (it's in settings, under Settings => Calendar => Events and invitations => Delete invitations and responses...)
 
 ### 2020-09-16
+
 * Using the stack and safe registers in assembly
 * [The Line](https://granta.com/the-line/): a short story by Amor Towles, the author of one of my recent favorite books, *A Gentleman in Moscow*.
 
 ### 2020-09-15
+
 * How to use GDB for debugging assembly programs
 * You will segfault if you call `printf` on a format string with the wrong specifiers :(
 
 ### 2020-09-14
+
 * The difference between function calls and labels in assembly
 * SSH port forwarding from Virtualbox to host
 
@@ -184,11 +237,13 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * What my would-be-roomates' dorm in Boston looks like (it's nice!)
 
 ### 2020-09-12
+
 * How to play codenames
 * [Silq](https://silq.ethz.ch/) is a cool and hip high level quantum programming language which has the unique feature of automatic uncomputation
 * NORMALIZE PROGRAMMING WITH EXPLICIT PRECONDITIONS AND POSTCONDITIONS!!! 
 
 ### 2020-09-11
+
 * What a [disjoint union](https://en.wikipedia.org/wiki/Disjoint_union) is
 * The basics of [lambda calculus](https://personal.utdallas.edu/~gupta/courses/apl/lambda.pdf)
 * How we can interpret [quantum circuits as higher order functions](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf) (!!!)
@@ -196,45 +251,56 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * One can think of quantum state teleportation as $$ g(f(\vert\phi\rangle)) = \vert\phi\rangle $$, and its inverse of teleporting classical bits, as $$ f(g(x, y)) = (x,y) $$ when $$ f:qbit \rightarrow bit\; \otimes\; bit $$, $$ g:bit\;\otimes\;bit \rightarrow qbit $$. $$f$$ is located at the sender, while $$g$$ is located at the receiver (in state teleportation). ___Beautiful.___
 
 ### 2020-09-10
+
 * Checkpointing and restart versus Kubernetes's approach to [drain a node](https://kubernetes.io/docs/tasks/administer-cluster/safely-drain-node/)
 * Mainframes still exist (!) and are still used today when huge amounts of memory needs to be accessed by huge amounts of processors, and for high throughput applications
 * _"The computer is the tool, computation is the principle."_ (I kinda already knew this but this is a nice way of saying it)
 * _“There are at least two kinds of games. One could be called finite, the other, infinite. A finite game is played for the purpose of winning, an infinite game for the purpose of continuing the play.”_ (Finite and Infinite Games, Ballantine, 1986, p. 1.)
 
 ### 2020-09-09
+
 * Who the AI research faculty are at Northeastern, what are the labs, and what they work on
 * Living in a red haze all day from the wildfire smoke really messes with how you perceive time. I felt exactly like I feel at hackathons, since the luminosity of my room did not change from morning to evening.
 
 ### 2020-09-08
+
 * [Lambda](https://arxiv.org/pdf/cs/0404056.pdf) [calculus](https://epubs.siam.org/doi/pdf/10.1137/S0097539703432165) [for](https://www.mscs.dal.ca/~selinger/papers/qlambdabook.pdf) [quantum](https://link.springer.com/content/pdf/10.1007%2F978-3-319-89366-2_19.pdf) [computers](https://cs.stackexchange.com/questions/971/quantum-lambda-calculus) is insane and I need to learn more. Somehow I've managed to not hear about this before. It seems like an area orthogonal to the gate model and that is going to be super important once the hardware of quantum computing is ironed out.
 * SecDB is a thing. More, I cannot really say
 
 ### 2020-09-07
+
 * Dewey Square by Charlie Parker, on saxophone
 
-### 2020-09-06 
+### 2020-09-06
+
 * [Surprising effect](https://blog.janestreet.com/l2-regularization-and-batch-norm/) when you use both L2 Regularization and Batch Norm together
 
 ### 2020-09-05
+
 * This [startup](https://replika.ai/) building an AI friend/therapist/romantic partner, and a [great podcast](https://www.youtube.com/watch?v=_AGPbvCDBCk) about it
 
 ### 2020-09-03
+
 * How to set up a custom message to greet people on your SSH server
 
 ### 2020-09-02
+
 * "Your assumptions are your windows on the world. Scrub them off every once in a while, or the light won't come in." - Isaac Asimov
 * Foothill College ran a course on quantum computing. [Here is the book](https://www.fgamedia.org/faculty/loceff/cs_courses/cs_83a/Intro_to_QC_Vol_1_Loceff.pdf), and [here are the lectures](https://www.youtube.com/playlist?list=PLMnoxczUtKqWpKZTwpRBHrif_y-xENTfx).
 * The [right packages to remove](https://askubuntu.com/questions/73219/remove-packages-to-transform-desktop-to-server#) to transform a desktop linux image into a headless server 
 
 ### 2020-09-01
+
 * More of Dewey Square
 * Up until 1820, China was the world's largest economy, accounting for almost 33% of the world's GDP at the time ([source](https://www.everycrsreport.com/reports/RL33534.html)).
 
 ### 2020-08-31
+
 * The Raspberry Pi Zero is tinier than you expect and cuter than you expect
 * How to play the first page of Dewey Square by Charlie Parker on the saxophone
 
 ### 2020-08-30
+
 * How to use Go modules
 * How to set up a compressed Docker image from a Go project
 * I should look into [Tilt](https://tilt.dev/) for building Kubernetes apps

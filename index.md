@@ -14,6 +14,7 @@ I love startups, case competitions, hip hop dance, jazz, playing the saxophone, 
 - 👨‍💻 Searching for a co-op position for Spring 2021, particularly in the machine learning, deep learning, or quantum computing field. I'm open to both research and industry co-ops. Here is a copy of my [resume](/assets/Marc%20Bacvanski%20Resume.pdf).
 - 🔎 Venture analyst at Northeastern's [IDEA Venture Accelerator](https://www.northeastern.edu/idea/)
 - 📚 Attending classes at Northeastern University
+- ✨ [Learning](/learning) something new and exciting every day
 
 ## Recently
 

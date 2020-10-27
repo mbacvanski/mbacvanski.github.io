@@ -8,6 +8,36 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-10-27
+
+* [`Promise.any`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any) is in approval! Crazy to think that [I asked about it 4 years ago](https://stackoverflow.com/q/39940152/2680053) in 2016 on StackOverflow – the [top voted answer](https://stackoverflow.com/a/39941616/2680053) right now is a pretty neat hack. 
+
+### 2020-10-26
+
+* How the Bellman-Ford algorithm works
+
+### 2020-10-25
+
+* [**propreantepenultimate**](https://www.google.com/search?q=propreantepenultimate)
+* Finally, [film simulation recipes](https://fujixweekly.com/2020/10/25/film-simulation-recipe-cards/) for Fujifilm! Recipes for Kodachrome, Ilford HP5, Fujifilm Acros, and more.
+
+### 2020-10-24
+
+* [`kebab-case`](https://stackoverflow.com/a/17820138/2680053)
+* [Procedurally generated Chinese landscapes](https://github.com/LingDong-/shan-shui-inf)
+* `#pragma once` instead of include guards! Why did no one tell me about this earlier. Although it's not universally available in all compilers.
+
+### 2020-10-23
+
+* Currency arbitrage is the name for that thing
+* [Great video](https://www.youtube.com/watch?v=WCUNPb-5EYI) on RNNs!
+* [Bongo Cat](https://bongo.cat/)
+* Install MacOS in Virtualbox with [this incredible shell script](https://github.com/myspaghetti/macos-virtualbox)
+
+### 2020-10-22
+
+* [Negative edge weights](https://cs.stackexchange.com/questions/14248/what-is-the-significance-of-negative-weight-edges-in-a-graph) on graphs could be useful in modeling the free energy of chemical reactions or cost/profit of driving a taxi. Negative edge weights open up the possibility of having negative cycles, where following a cycle ends up with a sum negative weight – this doesn't really make sense, and the [Bellman-Ford](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm) algorithm detects these.
+
 ### 2020-10-21
 
 * `systemctl disable influxdb` to prevent a service from starting automatically on boot, effective next stop event (reboot).

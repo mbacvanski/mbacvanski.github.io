@@ -8,9 +8,34 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-10-31
+
+* Refresher on how to use passport.js's serializeUser, deserializeUser, and local authentication. It's been a while since I've worked with this!
+* The [off-price](https://en.wikipedia.org/wiki/Off-price) retail model (TJX is known for)
+* [Shibboleth](https://www.google.com/search?q=shibboleth) is a cool word
+
+### 2020-10-30
+
+* Minimum spanning trees and some interesting properties of graph cuts
+* Multi-bit wires in verilog
+* The story of [Hiroo Onada](https://en.wikipedia.org/wiki/Hiroo_Onoda), Japanese soldier tasked with defending to the death an island in the Phillippines against US invasion during WWII. After all his comrades were killed, Onada spent 29 years hiding in the mountains and occasionally murdering civilians and burning crops – nobody ever told him that the war was over, and his last orders were to never surrender or take his own life. There's a semi-happy ending to this story too.
+
+### 2020-10-29
+
+* How to write a barrier in C using mutexes and condition variables
+* If you can't think of anything to say, it probably means you aren't listening closely enough. I've found that if I really think about what the other person is saying, there's always a question I can ask or something related that I can share that moves the conversation forward. When one gets caught up with thinking "what should I say next" it's easy to fall into the habit of just waiting for one's turn to speak, rather than engaging in true conversation. 
+
+### 2020-10-28
+
+* How the internet [looked](https://en.wikipedia.org/wiki/BBN_Technologies#/media/File:InetCirca85.jpg) in 1985
+* [Non-demolition quantum measurement](https://en.wikipedia.org/wiki/Quantum_nondemolition_measurement) is in contrast to the usual projective measurement of a system that leaves it in the measured eigenstate. How can this be done, and what is the state that the system takes on after measurement?
+
 ### 2020-10-27
 
-* [`Promise.any`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any) is in approval! Crazy to think that [I asked about it 4 years ago](https://stackoverflow.com/q/39940152/2680053) in 2016 on StackOverflow – the [top voted answer](https://stackoverflow.com/a/39941616/2680053) right now is a pretty neat hack. 
+* [`Promise.any`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any) is in approval! And about time too. Crazy to think that [I asked about it 4 years ago](https://stackoverflow.com/q/39940152/2680053) in 2016 on StackOverflow – the [top voted answer](https://stackoverflow.com/a/39941616/2680053) right now has been a pretty neat hack.
+* You shouldn't use `malloc` when creating objects in C++, since `new` takes care of that for you. But `malloc` might still be useful when paired with `realloc`, like for building a dynamically allocated vector, since you can't do that with `new`.
+* Is general intelligence equivalent to lossless compression? This is a hot take I've heard floating around.
+* The [Efficient Market Hypothesis](https://www.investopedia.com/terms/e/efficientmarkethypothesis.asp) hypothesizes that stock prices always reflect all knowable data about a company, with the conclusion that there are no such things as undervalued or overvalued stocks. If you believe in this you probably believe it's impossible to beat the market by picking stocks.
 
 ### 2020-10-26
 

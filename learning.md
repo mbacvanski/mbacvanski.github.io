@@ -8,6 +8,34 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-11-03
+
+* After committing a super large file in Git, and now you have regrets because it won't fit in Github and you can't push it, and now you just want to forget everything you've ever had to do with it: (you may have to put the `-f` flag after `--index-filter`)
+
+  ```bash
+  git filter-branch --prune-empty -d /dev/shm/scratch \
+    --index-filter "git rm --cached -f --ignore-unmatch path/to/bigfile.csv" \
+    --tag-name-filter cat -- --all
+  ```
+
+### 2020-11-02
+
+* *"A man who lives fully is prepared to die at any time."* – Mark Twain
+* [COVID detection using AI](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208795) just from cough recordings: looks like a 97.1% accuracy with 100% true negative rate, 16.8% false positive rate.
+* Enable AptX & AAC codec on mac: (need to disconnect & reconnect headphone afterwards)
+  `sudo defaults write bluetoothaudiod "Enable AptX codec" -bool true`
+  `sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true` 
+* D-type flip flops implemented using registers in Verilog
+* [Akku](https://github.com/jariz/akku) to monitor bluetooth headphone battery level from mac
+* [Spinlocks](https://en.wikipedia.org/wiki/Spinlock) are useful when you only expect to wait a very short amount of time, because they prevent your thread from being rescheduled. But they are wasteful if you hold them any longer because they're literally just busy waiting. Also [ticket locks](https://en.wikipedia.org/wiki/Ticket_lock) and [seqlocks](https://en.wikipedia.org/wiki/Seqlock) are pretty cool.
+* Up until 2019, in Texas it was illegal to buy an [Erlenmeyer flask](https://en.wikipedia.org/wiki/Erlenmeyer_flask) without a permit, in an attempt to prevent illicit drug sales.
+* It's not too hard to build [your own Schlieren imaging setup](https://www.instructables.com/Schlieren-Imaging-How-to-see-air-flow/)!
+
+### 2020-11-01
+
+* Daylight savings in the *fall* is the better one because you get to sleep an extra hour
+* Why my mac would refuse to play music through bluetooth audio. Went into Bluetooth Explorer and clicked Tools ➡ Audio Options ➡ Reset audio default.
+
 ### 2020-10-31
 
 * Refresher on how to use passport.js's serializeUser, deserializeUser, and local authentication. It's been a while since I've worked with this!

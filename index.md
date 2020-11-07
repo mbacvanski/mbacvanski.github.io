@@ -5,16 +5,16 @@
 **Hello! I'm Marc. I'm currently a student at Northeastern University, studying Computer Science in the Artificial Intelligence track.**
 
 I am pursuing quantum computing and machine learning. In the past, I have been heavily involved in full stack web and mobile development. 
-These days I am more interested in quantum computing, ML/DL, back-end development, and data science.
+These days I am more interested in quantum computing, artificial intelligence, back-end development, and data science/ML.
 
 I love startups, case competitions, hip hop dance, jazz, playing the saxophone, photography, learning new things, and using what I learn to help others.
 
 ## Currently
 
-- 👨‍💻 Searching for a co-op position for Spring 2021, particularly in the machine learning, deep learning, or quantum computing field. I'm open to both research and industry co-ops. Here is a copy of my [resume](/assets/Marc%20Bacvanski%20Resume.pdf).
 - 🔎 Venture analyst at Northeastern's [IDEA Venture Accelerator](https://www.northeastern.edu/idea/)
 - 📚 Attending classes at Northeastern University
 - ✨ [Learning](/learning) something new and exciting every day
+- 👨‍💻 Searching for a co-op position for Summer 2021, particularly in the artificial intelligence, deep learning, or quantum computing field. I'm open to both research and industry co-ops. Here is a copy of my [resume](/assets/Marc%20Bacvanski%20Resume.pdf).
 
 ## Recently
 

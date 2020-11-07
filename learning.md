@@ -8,6 +8,24 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-11-07
+
+* 
+
+### 2020-11-06
+
+* It's pretty difficult to divide a line into sevenths without practicing. Is there something fundamental about 7 that makes dividing into 7 pieces difficult? Are there aliens for whom it is easy to divide things into 7 pieces, just like humans find it easy to divide things in halves?
+* [Quantum Computing & Quantum Mechanics courses](/blog/qc-qm-courses)
+
+### 2020-11-05
+
+* Pointer arithmetic in C works differently on `void*` and `struct*` or any other pointer type: when you do `+1` on a void pointer, that increments the pointer's address in memory by 1 byte, whereas if you do `+1` on an `int*`, `char*`, or `struct*` that increments the pointer by one whole unit, whether that's an integer, character, or struct.
+
+### 2020-11-04
+
+* *"We are all in the gutter, but some of us are looking at the stars"* — Oscar Wilde
+* [How](https://superuser.com/a/294736) a computer reboots itself
+
 ### 2020-11-03
 
 * After committing a super large file in Git, and now you have regrets because it won't fit in Github and you can't push it, and now you just want to forget everything you've ever had to do with it: (you may have to put the `-f` flag after `--index-filter`)
@@ -20,11 +38,16 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 ### 2020-11-02
 
-* *"A man who lives fully is prepared to die at any time."* – Mark Twain
+* *"A man who lives fully is prepared to die at any time."* — Mark Twain
+
 * [COVID detection using AI](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208795) just from cough recordings: looks like a 97.1% accuracy with 100% true negative rate, 16.8% false positive rate.
-* Enable AptX & AAC codec on mac: (need to disconnect & reconnect headphone afterwards)
-  `sudo defaults write bluetoothaudiod "Enable AptX codec" -bool true`
-  `sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true` 
+* Enable AptX & AAC codec on mac: (may need to disconnect & reconnect headphone afterwards)
+
+  ```bash
+  sudo defaults write bluetoothaudiod "Enable AptX codec" -bool true
+  sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true
+  ```
+
 * D-type flip flops implemented using registers in Verilog
 * [Akku](https://github.com/jariz/akku) to monitor bluetooth headphone battery level from mac
 * [Spinlocks](https://en.wikipedia.org/wiki/Spinlock) are useful when you only expect to wait a very short amount of time, because they prevent your thread from being rescheduled. But they are wasteful if you hold them any longer because they're literally just busy waiting. Also [ticket locks](https://en.wikipedia.org/wiki/Ticket_lock) and [seqlocks](https://en.wikipedia.org/wiki/Seqlock) are pretty cool.

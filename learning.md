@@ -8,9 +8,83 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-11-16
+
+* [$O(n\log{n})$ multiplication](https://mattermodeling.stackexchange.com/a/1356) and its impact (not too much)
+* `/bin/time -v` gives extra info like memory usage, stack sizes, sockets used, etc. Somehow this is different than `time` even though `which time` shows it to be the same 🤔
+* [Nuclear Weapons Journal, Issue 2 of 2005.](https://www.lanl.gov/science/weapons_journal/wj_pubs/11nwj2-05.pdf) This is something 12-year old me would have loved.
+
+### 2020-11-15
+
+* *"Communism will never work out. There are too many red flags."*
+* `#define NDEBUG` to disable asserts in C
+* Sometimes you'll need to use `sudo apt-get dist-upgrade` to get `linux-headers` and other common tools.
+
+### 2020-11-14
+
+* *"Infinite boiling softens the stone"*
+* How to construct the bebop scale
+  * For major scales, add the #5
+  * For minor scales, add the major 3rd
+  * For dominant 7 scales, add the major 7th
+
+### 2020-11-13
+
+* [This page](https://technerium.ru/en/yadernyi-poezd-prizrak-boevoi-zheleznodorozhnyi-raketnyi-kompleks/) about the train-launched [RT-23 Molodets ICBM](https://en.wikipedia.org/wiki/RT-23_Molodets). In order to fit in a train cart, this rocket featured an inflatable nose cone. Disguised as refrigerator carts, the trains carrying these ICBMS featured a number of innovations to deflect power wires, eject the rocket without launching, and support the immense weight across multiple carts.
+* [Weapons and Warfare blog](https://weaponsandwarfare.com/)
+
+### 2020-11-12
+
+* If you try to `mmap` a fractional size of a page, it returns the next largest size possible with whole numbers of pages.
+* How do you write an online algorithm to detect a beat drop in music playing in real time?
+* Always assert bounds for array access in C!
+
+### 2020-11-11
+
+* Static arrays in C must have a size defined not as a variable, like as `#define size 5`. Apparently constants are variables.
+* Are trees aliens?
+* Initializing a `pthread_mutex_t` using the macro initializer is fine for static initializations, but if you are doing it afterwards like in a constructor you'll want to use `pthread_mutex_init(&mut, NULL)` [or else](https://sourceware.org/legacy-ml/libc-help/2008-05/msg00072.html) you'll get an error `__pthread_tpp_change_priority: Assertion 'new_prio == -1 || (new_prio >= __sched_fifo_min_prio && new_prio <= __sched_fifo_max_prio)' failed`
+
+### 2020-11-10
+
+* [Datawrapper](https://www.datawrapper.de/) for quickly visualizing data
+* [Perry Bible Fellowship](https://pbfcomics.com/)
+* Rough idea how [jemalloc](https://people.freebsd.org/~jasone/jemalloc/bsdcan2006/jemalloc.pdf) works, using the idea of multiple arenas of memory allocation that threads are assigned to
+
+### 2020-11-09
+
+* How different waveforms [sound](https://www.perfectcircuit.com/signal/difference-between-waveforms)
+
+* [Self-organizing lists](https://en.wikipedia.org/wiki/Self-organizing_list)
+
+* [Online algorithms](https://en.wikipedia.org/wiki/Online_algorithm) are able to provide useful results even with partial data, and results are updated efficiently as more data is available. 
+
+* Imagine a doubly ordered, doubly linked list that has two orderings: ordering `a`, which `prev_a` and `next_a` define, and ordering `b`, which is kept track of with `prev_b` and `next_b`. You could use this in keeping track of a free list in a memory allocator, where one ordering is allocations by memory address and the other is by size. This would enable constant time freeing with blocks ordered by memory address, while still letting you use a first-fit allocation strategy on allocating the smallest previously free block on new allocation calls. What is the name for this type of data structure?
+
+  ```c
+  typedef struct item{
+  	struct item* prev_a;
+  	struct item* next_a;
+    
+  	struct item* prev_b;
+  	struct item* next_b;
+  	
+  	void* data;
+  }
+  ```
+
+* Initialize a `pthread_mutex_t` with `static pthread_mutex_t mut = PTHREAD_MUTEX_INITIALIZER;`
+
+### 2020-11-08
+
+* The size of a struct in C isn't the sum of the sizes of each of its fields; padding is automatically added to [align the struct fields](https://stackoverflow.com/a/119134/2680053).
+
 ### 2020-11-07
 
-* 
+* `always@(...)` in Verilog describes events that should happen under certain conditions. Two common use cases are to have a sensitivity list inside the parenthesis, or to trigger on every clock cycle. Good reference is [here](https://class.ece.uw.edu/371/peckol/doc/Always@.pdf).
+  * `always@(A, B, C)` indicates that the assignments inside the block change whenever any of the parameters in the sensitivity list changes – any time A, B, or C changes.
+  * `always@(posedge clock)` updates assignments inside the block at the positive (rising) edge of every clock cycle.
+* Amortized time analysis
 
 ### 2020-11-06
 

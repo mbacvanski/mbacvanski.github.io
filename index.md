@@ -27,7 +27,5 @@ I love startups, case competitions, hip hop dance, jazz, playing the saxophone, 
 
 ## Let's Connect!
 
-Feel free to reach out to me on [LinkedIn](https://linkedin.com/in/mbacvanski), 
-[Github](https://github.com/mbacvanski), [Keybase](https://keybase.io/mbacvanski/chat), via [email](mailto:marc.bacvanski@gmail.com), or on various Slack groups.
-I am always happy to chat technology, startups, or anything else.
+If you're reading this I'd love to chat with you! Text/call me at `six five zero - seven seven two - zero zero three five`, or feel free to reach out on [LinkedIn](https://linkedin.com/in/mbacvanski), [Github](https://github.com/mbacvanski), [Keybase](https://keybase.io/mbacvanski/chat), [email](mailto:marc.bacvanski@gmail.com), or in various Slack groups that I lurk in.
 

@@ -13,11 +13,12 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * [$O(n\log{n})$ multiplication](https://mattermodeling.stackexchange.com/a/1356) and its impact (not too much)
 * `/bin/time -v` gives extra info like memory usage, stack sizes, sockets used, etc. Somehow this is different than `time` even though `which time` shows it to be the same 🤔
 * [Nuclear Weapons Journal, Issue 2 of 2005.](https://www.lanl.gov/science/weapons_journal/wj_pubs/11nwj2-05.pdf) This is something 12-year old me would have loved.
+* How to write a super fast, multithreaded memory allocator using buckets and multiple arenas. Blog post coming soon.
 
 ### 2020-11-15
 
 * *"Communism will never work out. There are too many red flags."*
-* `#define NDEBUG` to disable asserts in C
+* `#define NDEBUG` to disable asserts in C. Made my own memory allocator almost 40% faster because I had all kinds of asserts sprinkled in there.
 * Sometimes you'll need to use `sudo apt-get dist-upgrade` to get `linux-headers` and other common tools.
 
 ### 2020-11-14

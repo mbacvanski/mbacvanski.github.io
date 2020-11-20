@@ -8,6 +8,40 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-11-19
+
+* [octothorpe](https://www.google.com/search?q=octothorpe) is another word for the hash symbol
+* Herbie Hancock's awesomely [weird](https://www.youtube.com/watch?v=I8_7tKMDi8U) [music](https://www.youtube.com/watch?v=GHhD4PD75zY) [videos](https://www.youtube.com/watch?v=jJkyOvXM6ds)
+
+### 2020-11-18
+
+* How to modify the x86_64 [xv6 operating system](https://en.wikipedia.org/wiki/Xv6) to add a new syscall
+
+### 2020-11-17
+
+* [Stylish Dinner to the Beat of Jazz, Accompanied by Domestic Artists](https://open.spotify.com/playlist/37i9dQZF1DXaa1A1h4KqjP?si=wCFRFN1RTu6c2bMzUl9gcA) (Finnish)
+
+* As of a recent lawsuit, the USPS is required to publish statistics. This [Google Drive folder](https://drive.google.com/drive/folders/1tPSCNfqbscGJO1AAH-DHz1Fc7EZbiQkS) contains spreadsheets with mail processing rates and other statistics, grouped by region and time period. It's important to note that the percentages are mail *processing* rates, not delivery rates – mail not processed on time could still get delivered on time. Some more information about this data [here](https://www.savethepostoffice.com/updates-on-the-service-performance-reports/).
+
+* [Data is Plural – Structured Archive](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) of all kinds of interesting datasets
+
+* Farm workers talk to their dairy cows use a lower lexical difficulty of english than mothers talking to their 3¼-year-old children. Science is becoming more and more difficult to understand, and we've understood this since [this article](https://sci-hub.se/https://www.nature.com/articles/356739a0.pdf) in Nature from 1992.
+
+* [Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/)
+
+* Lempel-Ziv-Welch compression algorithm, and the Huffman coding algorithm
+
+* Computer dies during a git operation. Git is upset. See [this question](https://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty). 
+
+  ```
+  error: object file .git/objects/31/65329bb680e30595f242b7c4d8406ca63eeab0 is empty
+  fatal: loose object 3165329bb680e30595f242b7c4d8406ca63eeab0 (stored in .git/objects/31/65329bb680e30595f242b7c4d8406ca63eeab0) is corrupt
+  ```
+
+   From the `.git` directory, run `find . -type f -empty -delete -print` and then `git pull`
+
+* [Use Makefile in Clion with CMakeLists](https://stackoverflow.com/questions/26918459/using-local-makefile-for-clion-instead-of-cmake)
+
 ### 2020-11-16
 
 * [$O(n\log{n})$ multiplication](https://mattermodeling.stackexchange.com/a/1356) and its impact (not too much)

@@ -1,5 +1,5 @@
 ---
-layout: small_title
+layout: blog
 title: Quantum Mechanics & Quantum Computing Courses – November 2020
 mathjax: true
 ---

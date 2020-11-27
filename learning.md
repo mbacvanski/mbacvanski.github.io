@@ -8,6 +8,67 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-11-26
+
+* `char` arrays are not automatically null terminated in C, but string literals are.
+* Simple Fuse API calls to implement a bare bones file system 🎉
+
+### 2020-11-25
+
+* Always put extra parenthesis in your C functions in macros to to avoid order of operations errors, **particularly around any parameters**. Example:
+
+  ```c
+  #define CEIL(x) ((x) == (double) (int) (x) ? (int) (x) : (int) (x) + 1) // is ok
+  #define CEIL(x) (x == (double) (int) x ? (int) x : (int) x + 1)         // not ok
+  ```
+
+* [Virtualbox cursor not working in the top left quadrant of the screen](https://superuser.com/questions/1550756/oracle-virtualbox-cursor-lost-in-top-left-corner) is an issue with drag and drop, through the Virtualbox guest tooling. If you try to drag something from outside the VM into the VM it fixes the issue.
+
+### 2020-11-24
+
+* The opposite of "OG" (Original Gangster) is "BG" (Baby Gangstser)
+* [Lao Gan Ma has changed since my childhood](https://medium.com/pandayoo/why-is-lao-gan-ma-no-longer-hot-in-china-2f0538ce903f) :sob:
+
+### 2020-11-23
+
+* [Really great explanation](https://github.com/YehudaShapira/xv6-explained/blob/master/Explanations.md) on how the xv6 operating system works, or really most unix operating systems.
+
+* [Clean example](https://github.com/fntlnz/fuse-example) of how to set up a simple FUSE project using CMakeLists. You'll want `CMAKE/FindFUSE.cmake` and then add to `CMakeLists.txt`:
+
+  ```
+  set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_FILE_OFFSET_BITS=64")
+  set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake" ${CMAKE_MODULE_PATH})
+  find_package(FUSE REQUIRED)
+  
+  include_directories(${FUSE_INCLUDE_DIR})
+  target_link_libraries(<<<<your_executable>>>>> ${FUSE_LIBRARIES})
+  ```
+
+### 2020-11-22
+* [Tenets of the Unix philosophy](http://www.catb.org/esr/writings/taoup/html/ch01s06.html). Excerpt from [The Art of Unix Programming](http://www.catb.org/esr/writings/taoup/html/) book:
+
+  > 11. Rule of Silence: When a program has nothing surprising to say, it should say nothing.
+  
+  This is probably why `diff` returns nothing if files are the same.
+* Most of the things I *actually* learn, don't end up on this page. This has become (or always was?) a subset of little tidbits, facts, links that I stumble across. I don't really attribute much meaning to any individual bullet point on this page, whereas I do find lots of value in big learnings like designing a memory allocator or understanding how the quantum fourier transform works. Most things worth learning aren't things you pick up in a day, but things you work at over long periods of time. Mastery comes from incremental improvement, and while I'm far from that in anything, incremental learning is difficult to quantify beyond cute little discoveries/tricks/hacks. How do I measure how good I am at improvising a jazz solo over the Bb blues?
+
+  On balance, a lot of these entries are minute things that I do want to remember or come back to, like yesterday's learning about vim clipboard settings. Perhaps, like many other things in life, these minute learnings may have little meaning by themselves, but when taken together and considered as a whole, they become something special.
+
+  It's almost the 3 month anniversary of me starting to do this. When I look back at a random day, I'm surprised how the things I've recorded can jog my memory and help me recall the happiness, sorrow, and meaning that I've been so incredibly fortunate to have experienced in my short existence. I'm glad that I do this.
+
+### 2020-11-21
+
+* `set clipboard=unnamed` in vim makes vim use the system clipboard instead of its own; so you can copy and paste with `y` and `p` and have it work with the system.
+* On linux you can view the CPU temperature in `cat /sys/class/thermal/thermal_zone0/temp`: divide by 1000 to get degrees Celsius.
+* [power level 10k](https://github.com/romkatv/powerlevel10k)
+
+### 2020-11-20
+
+* How the Ford-Fulkerson algorithm uses residual graphs to find the maximum flow function for a graph
+* [Water Droplet Surviving An Attempt To Be Cut By A Knife](https://commons.wikimedia.org/w/index.php?title=File%3AWater_droplet_surviving_an_attempt_to_be_cut_by_a_knife.ogv)
+* The [shapes of raindrops](https://en.wikipedia.org/wiki/Drop_(liquid)#/media/File:Raindrops_sizes.svg)
+* Some substances, like bitumen, appear to be solids but are actually liquids. The [Pitch Drop Experiment](https://en.wikipedia.org/wiki/Pitch_drop_experiment) has the record for the longest continually running laboratory experiment, and consists of a cone of pitch that is dripping at a rate of once per decade since 1930. Watch the live stream [here](http://www.thetenthwatch.com/feed/) – the tenth drip is expected in 8 years (as of writing).
+
 ### 2020-11-19
 
 * [octothorpe](https://www.google.com/search?q=octothorpe) is another word for the hash symbol
@@ -22,15 +83,10 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * [Stylish Dinner to the Beat of Jazz, Accompanied by Domestic Artists](https://open.spotify.com/playlist/37i9dQZF1DXaa1A1h4KqjP?si=wCFRFN1RTu6c2bMzUl9gcA) (Finnish)
 
 * As of a recent lawsuit, the USPS is required to publish statistics. This [Google Drive folder](https://drive.google.com/drive/folders/1tPSCNfqbscGJO1AAH-DHz1Fc7EZbiQkS) contains spreadsheets with mail processing rates and other statistics, grouped by region and time period. It's important to note that the percentages are mail *processing* rates, not delivery rates – mail not processed on time could still get delivered on time. Some more information about this data [here](https://www.savethepostoffice.com/updates-on-the-service-performance-reports/).
-
 * [Data is Plural – Structured Archive](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) of all kinds of interesting datasets
-
 * Farm workers talk to their dairy cows use a lower lexical difficulty of english than mothers talking to their 3¼-year-old children. Science is becoming more and more difficult to understand, and we've understood this since [this article](https://sci-hub.se/https://www.nature.com/articles/356739a0.pdf) in Nature from 1992.
-
 * [Paste to Markdown](https://euangoddard.github.io/clipboard2markdown/)
-
 * Lempel-Ziv-Welch compression algorithm, and the Huffman coding algorithm
-
 * Computer dies during a git operation. Git is upset. See [this question](https://stackoverflow.com/questions/11706215/how-to-fix-git-error-object-file-is-empty). 
 
   ```
@@ -39,7 +95,6 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
   ```
 
    From the `.git` directory, run `find . -type f -empty -delete -print` and then `git pull`
-
 * [Use Makefile in Clion with CMakeLists](https://stackoverflow.com/questions/26918459/using-local-makefile-for-clion-instead-of-cmake)
 
 ### 2020-11-16
@@ -89,11 +144,8 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 ### 2020-11-09
 
 * How different waveforms [sound](https://www.perfectcircuit.com/signal/difference-between-waveforms)
-
 * [Self-organizing lists](https://en.wikipedia.org/wiki/Self-organizing_list)
-
 * [Online algorithms](https://en.wikipedia.org/wiki/Online_algorithm) are able to provide useful results even with partial data, and results are updated efficiently as more data is available. 
-
 * Imagine a doubly ordered, doubly linked list that has two orderings: ordering `a`, which `prev_a` and `next_a` define, and ordering `b`, which is kept track of with `prev_b` and `next_b`. You could use this in keeping track of a free list in a memory allocator, where one ordering is allocations by memory address and the other is by size. This would enable constant time freeing with blocks ordered by memory address, while still letting you use a first-fit allocation strategy on allocating the smallest previously free block on new allocation calls. What is the name for this type of data structure?
 
   ```c
@@ -280,11 +332,8 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 ### 2020-10-12
 
 * About one third of press releases are exaggerated, and these get magnified in news stories. Exact results [here](https://www.bmj.com/content/349/bmj.g7015), go take a look.
-
 * Uninstall all adobe junk applications and processes with [CC Cleaner](https://helpx.adobe.com/photoshop-elements/kb/elements-installation-error-CC-cleaner-tool.html)
-
 * [Mask off](https://www.youtube.com/watch?v=NudlLKd3WW4) 
-
 * [News embargoes](https://www.scientificamerican.com/article/how-the-fda-manipulates-the-media/) mean that science reporters can only report in the ways that  publishers like the FDA allow. Embargoed news has been around since the 1920s, when it meant that science journals would offer reporters early access to papers and contact information of authors, under the condition that the reporters can only publish their story after the embargo time period expires. This would enable reporters extra time to research their story, without the fear that their story would get published by someone else first.
   
   The **close-hold embargo** forbids reporters from contacting outside sources for commentary about news. This essentially prevents all independent reporting, allowing the journal or organization to dictate what the news says. The FDA has a history of doing this.

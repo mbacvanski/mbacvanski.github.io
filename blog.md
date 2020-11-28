@@ -1,5 +1,6 @@
 ---
 title: Blog
+layout: small_title
 ---
 
 {% for post in site.posts %}

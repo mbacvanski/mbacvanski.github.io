@@ -1,6 +1,6 @@
 ---
 title: Wildfire and Smoke Exposure in Children, AAP Webinar
-layout: blog
+layout: blog_outline
 ---
 
 In early September, the American Academy of Pediatrics hosted a webinar on wildfire and smoke exposure in children, where leading pediatricians Dr. Stephanie Holm and Dr. Petra Steinbuchel discussed the physical and mental health risks of wildfire smoke to children. 

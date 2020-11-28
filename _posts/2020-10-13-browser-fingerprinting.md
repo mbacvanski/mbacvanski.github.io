@@ -1,6 +1,6 @@
 ---
 title: Cookies are passé; browser fingerprinting is à la mode
-layout: blog
+layout: blog_outline
 ---
 
 You probably know browser cookies as the reason why you’ll Google something and then suddenly start seeing advertisements for it on your Instagram feed. More specifically, this spooky action is the work of third-party cookies – little bits of data stored in your browser by advertising companies, in order to collect data on your browsing habits.

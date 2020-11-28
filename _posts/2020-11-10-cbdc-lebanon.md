@@ -1,6 +1,6 @@
 ---
 title: CBDCs
-layout: blog
+layout: blog_outline
 ---
 
 Earlier this week, Lebanon announced its [plan](https://www.bloomberg.com/news/articles/2020-11-10/lebanon-plans-to-introduce-digital-currency-in-2021-salameh) to introduce a new digital currency in 2021. This feels natural to anyone following the rise of cryptocurrencies in recent years, starting with Bitcoin’s explosion in popularity in 2017. But Lebanon isn’t simply developing a new incarnation of Bitcoin as their currency. Like [China](https://www.reuters.com/article/us-china-currency-digital-explainer/explainer-how-does-chinas-digital-yuan-work-idUSKBN27411T), [Sweden](https://www.riksbank.se/en-gb/payments--cash/e-krona/), the [UK](https://cointelegraph.com/news/uk-drafting-stablecoin-regulations-and-researching-a-cbdc), and several other countries, Lebanon is working to create a central bank digital currency, or CBDC.

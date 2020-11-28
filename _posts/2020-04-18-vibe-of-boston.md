@@ -1,6 +1,6 @@
 ---
 title: Vibe of Boston
-layout: blog
+layout: blog_outline
 ---
 
 ![Vibe of Boston](../assets/vibe-of-boston/overview.png)
@@ -27,7 +27,7 @@ We performed preliminary data analysis in Python. We manipulated data using Pand
 ![analysis](../assets/vibe-of-boston/analysis.png)
 Natural language processing from the spaCy library was used to do in-depth analysis of the listings and review data to generate a number of metrics and ratings. For each listing, we calculated a vibe vector by computing five different vibe factors. This data is exported as a large JSON file, which is then loaded by our user-facing visualization tool.
 
-### Honesty
+## Honesty
 Honesty is calculated by extracting the most common adjectives from the listings, and comparing them with the most common adjectives from the reviews. This is a metric of how close each listing is to the average vibe of the neighborhood it is in.
 ```python
 import spacy
@@ -68,7 +68,7 @@ def calc_neighborhood_accuracy(neighborhood_adjectives, neighborhood_frequencies
 
   return neighborhood_accuracy
 ```
-### Liveliness
+## Liveliness
 Liveliness is the total number of reviews left by visitors to a place. This is a metric of how many people visit and are living in an area.
 
 ```python
@@ -88,7 +88,7 @@ for listing_id in listings:
   liveliness = len(comments_list)
 ```
 
-### Happiness
+## Happiness
 Happiness is calculated as the sum of the average rating of a listing and the average sentiment of reviews left by visitors. This is a metric of how lively and desirable an area is.
 
 ```python
@@ -104,7 +104,7 @@ happiness = df_listings.loc[df_listings['id'] == listing_id]['review_scores_rati
 
 ```
 
-### Walkability & Tranquility
+## Walkability & Tranquility
 Both of these factors are calculated with the occurrence of those related words within each of the reviews and the listing description itself. This count is normalized by dividing by the total number of words encountered in the description, neighborhood overview, and reviews to find the average walkability score of a given listing.
 ```python
 WALKABILITY_WORDS = ["transit", "train", "subway", "T", "bus", "ride", "walk", "walking", "walkable"]
@@ -129,7 +129,7 @@ def calc_word_freq(comments_list, word_list):
   # Normalized by total number of words
   return total_count / len_total
 ```
-### Vibe Factor Aggregation
+## Vibe Factor Aggregation
 ```python
 # Neighborhood accuracy metric ("Honesty")
 honesty = calc_neighborhood_accuracy(adjectives, frequencies, comments_list)

@@ -1,7 +1,7 @@
 ---
-layout: blog
 title: Quantum Mechanics & Quantum Computing Courses – November 2020
 mathjax: true
+layout: blog_outline
 ---
 
 Foundational QC Courses

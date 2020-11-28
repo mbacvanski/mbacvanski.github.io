@@ -14,21 +14,27 @@
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163967035-1"></script>
 	<script>
-        window.dataLayer = window.dataLayer || [];
+      window.dataLayer = window.dataLayer || [];
 
-        function gtag() {
-            dataLayer.push(arguments);
-        }
+      function gtag() {
+        dataLayer.push(arguments);
+      }
 
-        gtag('js', new Date());
+      gtag('js', new Date());
 
-        gtag('config', 'UA-163967035-1');
+      gtag('config', 'UA-163967035-1');
 	</script>
 
 </head>
 
 <body class="outer-body">
-	<div id="container" class="markdown-body">
+<div id="sidebar">
+	<div id="outline">
+		{% include toc.html html=content %}
+	</div>
+</div>
+
+<div id="container" class="markdown-body">
 		<span>
 			{% if site.nav-links %}
 			<nav>

@@ -1,5 +1,5 @@
 ---
-layout: small_title
+layout: blog_outline
 title: A Few Things I Learn Every Day
 mathjax: true
 ---
@@ -7,6 +7,18 @@ mathjax: true
 I try to learn or discover something new every day. Here are some of the things that I get excited about!
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
+
+### 2020-11-27
+
+* [Java won't support arrays of generic types](https://www.ibm.com/developerworks/java/library/j-jtp01255/index.html#Generics%20are%20not%20covariant), like `List<Foo>[]`. Check out this counterexample:
+  ```java
+  List<String>[] liz = new ArrayList<String>[10]; // ILLEGAL
+  Object[] objs = liz; // is fine, since List<String> is subclass of Object
+  List<Integer> ints = new ArrayList<Integer>;
+  ints.add(42);
+  objs[0] = ints;
+  String ohno = liz[0].get(0); // oh no! liz now contains integers!
+  ```
 
 ### 2020-11-26
 
@@ -16,7 +28,6 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 ### 2020-11-25
 
 * Always put extra parenthesis in your C functions in macros to to avoid order of operations errors, **particularly around any parameters**. Example:
-
   ```c
   #define CEIL(x) ((x) == (double) (int) (x) ? (int) (x) : (int) (x) + 1) // is ok
   #define CEIL(x) (x == (double) (int) x ? (int) x : (int) x + 1)         // not ok
@@ -32,7 +43,6 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 ### 2020-11-23
 
 * [Really great explanation](https://github.com/YehudaShapira/xv6-explained/blob/master/Explanations.md) on how the xv6 operating system works, or really most unix operating systems.
-
 * [Clean example](https://github.com/fntlnz/fuse-example) of how to set up a simple FUSE project using CMakeLists. You'll want `CMAKE/FindFUSE.cmake` and then add to `CMakeLists.txt`:
 
   ```
@@ -81,7 +91,6 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 ### 2020-11-17
 
 * [Stylish Dinner to the Beat of Jazz, Accompanied by Domestic Artists](https://open.spotify.com/playlist/37i9dQZF1DXaa1A1h4KqjP?si=wCFRFN1RTu6c2bMzUl9gcA) (Finnish)
-
 * As of a recent lawsuit, the USPS is required to publish statistics. This [Google Drive folder](https://drive.google.com/drive/folders/1tPSCNfqbscGJO1AAH-DHz1Fc7EZbiQkS) contains spreadsheets with mail processing rates and other statistics, grouped by region and time period. It's important to note that the percentages are mail *processing* rates, not delivery rates – mail not processed on time could still get delivered on time. Some more information about this data [here](https://www.savethepostoffice.com/updates-on-the-service-performance-reports/).
 * [Data is Plural – Structured Archive](https://docs.google.com/spreadsheets/d/1wZhPLMCHKJvwOkP4juclhjFgqIY8fQFMemwKL2c64vk/edit#gid=0) of all kinds of interesting datasets
 * Farm workers talk to their dairy cows use a lower lexical difficulty of english than mothers talking to their 3¼-year-old children. Science is becoming more and more difficult to understand, and we've understood this since [this article](https://sci-hub.se/https://www.nature.com/articles/356739a0.pdf) in Nature from 1992.
@@ -147,7 +156,6 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 * [Self-organizing lists](https://en.wikipedia.org/wiki/Self-organizing_list)
 * [Online algorithms](https://en.wikipedia.org/wiki/Online_algorithm) are able to provide useful results even with partial data, and results are updated efficiently as more data is available. 
 * Imagine a doubly ordered, doubly linked list that has two orderings: ordering `a`, which `prev_a` and `next_a` define, and ordering `b`, which is kept track of with `prev_b` and `next_b`. You could use this in keeping track of a free list in a memory allocator, where one ordering is allocations by memory address and the other is by size. This would enable constant time freeing with blocks ordered by memory address, while still letting you use a first-fit allocation strategy on allocating the smallest previously free block on new allocation calls. What is the name for this type of data structure?
-
   ```c
   typedef struct item{
   	struct item* prev_a;
@@ -190,7 +198,6 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 ### 2020-11-03
 
 * After committing a super large file in Git, and now you have regrets because it won't fit in Github and you can't push it, and now you just want to forget everything you've ever had to do with it: (you may have to put the `-f` flag after `--index-filter`)
-
   ```bash
   git filter-branch --prune-empty -d /dev/shm/scratch \
     --index-filter "git rm --cached -f --ignore-unmatch path/to/bigfile.csv" \
@@ -200,15 +207,12 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 ### 2020-11-02
 
 * *"A man who lives fully is prepared to die at any time."* — Mark Twain
-
 * [COVID detection using AI](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9208795) just from cough recordings: looks like a 97.1% accuracy with 100% true negative rate, 16.8% false positive rate.
 * Enable AptX & AAC codec on mac: (may need to disconnect & reconnect headphone afterwards)
-
   ```bash
   sudo defaults write bluetoothaudiod "Enable AptX codec" -bool true
   sudo defaults write bluetoothaudiod "Enable AAC codec" -bool true
   ```
-
 * D-type flip flops implemented using registers in Verilog
 * [Akku](https://github.com/jariz/akku) to monitor bluetooth headphone battery level from mac
 * [Spinlocks](https://en.wikipedia.org/wiki/Spinlock) are useful when you only expect to wait a very short amount of time, because they prevent your thread from being rescheduled. But they are wasteful if you hold them any longer because they're literally just busy waiting. Also [ticket locks](https://en.wikipedia.org/wiki/Ticket_lock) and [seqlocks](https://en.wikipedia.org/wiki/Seqlock) are pretty cool.

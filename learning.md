@@ -8,6 +8,10 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-11-28
+
+* If you need to implement a priority queue that has a fixed number of values for the primary ordering (like if you are storing scheduling appointments by the minute, you only have $24\cdot60=1440$ minutes), you can use a lookup-based approach where in a $1440\times1440$ array that stores the number of requests that start at the row index and end at the column index. In another $1\times1440$ array, store the number of requests that end that minute. Then you can traverse your fixed length 1D array, and find the first ending time to traverse for in your 2D array. This is asymptotically constant time, since $1440$ is a constant. This can be pretty slow though in practice.
+
 ### 2020-11-27
 
 * [Java won't support arrays of generic types](https://www.ibm.com/developerworks/java/library/j-jtp01255/index.html#Generics%20are%20not%20covariant), like `List<Foo>[]`. Check out this counterexample:

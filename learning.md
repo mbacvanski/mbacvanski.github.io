@@ -8,9 +8,24 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-12-01
+
+* `<mark>` to <mark>highlight</mark> stuff in markdown and html
+* Edge-disjoint paths are paths on a graph between the same source and sink that don't share any edges in common. You can find edge-disjoint paths using a reduction to integer max flow on a graph, in $O(mn)$ time.
+
+### 2020-11-30
+
+* If mac won't open an app from an unidentified developer claiming that it's damaged, run `xattr -cr /path/to/application.app` to clear the lock on it. 
+
+### 2020-11-29
+
+* `rm -r` to delete a directory is not implemented in in the file system: the `rm` command literally just recurses through every single item (and nested items) in the folder and deletes them first individually. The `rmdir` file system call only allows deleting empty directories.
+* Most operating systems don't allow hard links to directories, where two directory entries point to the same, another directory inode. This can get complicated mainly in avoiding cycles. 
+
 ### 2020-11-28
 
 * If you need to implement a priority queue that has a fixed number of values for the primary ordering (like if you are storing scheduling appointments by the minute, you only have $24\cdot60=1440$ minutes), you can use a lookup-based approach where in a $1440\times1440$ array that stores the number of requests that start at the row index and end at the column index. In another $1\times1440$ array, store the number of requests that end that minute. Then you can traverse your fixed length 1D array, and find the first ending time to traverse for in your 2D array. This is asymptotically constant time, since $1440$ is a constant. This can be pretty slow though in practice.
+* Added the outline on the left hand side. I used [jekyll-toc](https://github.com/allejo/jekyll-toc)
 
 ### 2020-11-27
 
@@ -41,15 +56,16 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 ### 2020-11-24
 
-* The opposite of "OG" (Original Gangster) is "BG" (Baby Gangstser)
-* [Lao Gan Ma has changed since my childhood](https://medium.com/pandayoo/why-is-lao-gan-ma-no-longer-hot-in-china-2f0538ce903f) :sob:
+* The opposite of "OG" (Original Gangster) is "BG" (Baby Gangster)
+* [Lao Gan Ma has changed since my childhood](https://medium.com/pandayoo/why-is-lao-gan-ma-no-longer-hot-in-china-2f0538ce903f) ​😭
+* In C, cast a void pointer to an array like `int[] arr = (int (*)[ARR_SIZE]) mem` where `mem` is a void pointer.
 
 ### 2020-11-23
 
 * [Really great explanation](https://github.com/YehudaShapira/xv6-explained/blob/master/Explanations.md) on how the xv6 operating system works, or really most unix operating systems.
 * [Clean example](https://github.com/fntlnz/fuse-example) of how to set up a simple FUSE project using CMakeLists. You'll want `CMAKE/FindFUSE.cmake` and then add to `CMakeLists.txt`:
 
-  ```
+  ```cmake
   set(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -D_FILE_OFFSET_BITS=64")
   set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/CMake" ${CMAKE_MODULE_PATH})
   find_package(FUSE REQUIRED)

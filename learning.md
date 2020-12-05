@@ -8,6 +8,60 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-12-05
+
+* 
+
+### 2020-12-04
+
+* [Taper magazine](https://taper.badquar.to/), by [Bad Quarto](https://badquar.to/)
+
+* If you have a *qudit*, or a $d$-valued version of a qubit, the pure states are $\vert0\rangle,~\vert\frac{1}{d-1}\rangle,~\vert\frac{2}{d-1}\rangle,\ldots\vert\frac{d-2}{d-1}\rangle$. In a 2-state qubit, the pure states are of course just $\vert0\rangle$ and $\vert1\rangle$. A pure state of $\vert\frac{k}{d-1}\rangle=\begin{bmatrix}0 \\\ \vdots \\\ 1\\\ \vdots\\\ 0\end{bmatrix}$
+
+* The [Fredkin gate](https://en.wikipedia.org/wiki/Fredkin_gate) in quantum computing (CSWAP) takes 3 inputs and swaps two of them based on the input of the third. The matrix form contains the equal number of $0$'s and $1$'s, which by the [billiard-ball model](https://en.wikipedia.org/wiki/Billiard-ball_computer) indicates that it conserves energy/information.
+  
+  $$
+  \begin{bmatrix}
+  1&0&0&0&0&0&0&0\\
+  0&1&0&0&0&0&0&0\\
+  0&0&1&0&0&0&0&0\\
+  0&0&0&1&0&0&0&0\\
+  0&0&0&0&1&0&0&0\\
+  0&0&0&0&0&0&1&0\\
+  0&0&0&0&0&1&0&0\\
+  0&0&0&0&0&0&0&1\\
+  \end{bmatrix}
+  $$
+  
+* [Solving 3-SAT](http://www.gcn.us.es/4BWMC/vol2/quantumnp.pdf) using 3 different quantum approaches: quantum circuits, quantum register machines, and [quantum membrane computing](http://www.seerc.org/wmc8/procedings_web/pages033-56.pdf)
+
+* [hedonometer.org](http://hedonometer.org/timeseries/en_all/?from=2008-09-09&to=2020-12-03) of Twitter sentiment over time. Every Christmas since 2015 has been sadder than the year before. The variance in the trend is increasing: maybe due to media that is made to incite outrage, fear, and anger, there are more spikes and dips in recent years than ever before. May 30, 2020 was the saddest day in the history of Twitter.
+  
+  <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yesterday was the saddest day in the history of <a href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw">@Twitter</a> <a href="https://t.co/91VP3Ywtnr">pic.twitter.com/91VP3Ywtnr</a></p>&mdash; hedonometer (@hedonometer) <a href="https://twitter.com/hedonometer/status/1266774310565425154?ref_src=twsrc%5Etfw">May 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+### 2020-12-03
+
+* If you have a set of points in a verticle line, spaced $d$ apart, and another point $\ell$ away from the very first point, and you draw lines connecting that top point to each point on the line, the angle formed by $\theta=\arctan(\frac{d}{\ell})$. With infinitely many points, $\lim_{d\to\infty}{\arctan{(\frac{d}{\ell})}}=\frac{\pi}{2}=90^\circ$. As you add points, $\frac{\partial}{\partial \ell}\arctan{(\frac{d}{\ell})} = \frac{\ell}{d^2+\ell^2}$, meaning that the angle changes proportional to $\frac{1}{d^2}$ when $\ell$ is a constant. This is both cool and neat.
+
+  ```
+  <-length l->
+  |          |
+  *----------* +
+   \ Θ         |
+     \         | 
+       \       | distance d
+         \     |
+           \   |
+             * +
+              more points down here, d distance away
+             and so on...
+  ```
+
+### 2020-12-02
+
+* You've heard of salting passwords, but what about [peppering](https://en.wikipedia.org/wiki/Pepper_(cryptography)) passwords?
+* [Involuntary memories](https://en.wikipedia.org/wiki/Involuntary_memory) is the name for that thing....
+
 ### 2020-12-01
 
 * `<mark>` to <mark>highlight</mark> stuff in markdown and html

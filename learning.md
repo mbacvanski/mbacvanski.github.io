@@ -8,17 +8,22 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-12-06
+
+* [The 12 Factor App](https://12factor.net/)
+* [Everything you need to know](https://medium.com/@petehouston/install-and-config-redis-on-mac-os-x-via-homebrew-eb8df9a4f298) about installing/uninstalling Redis on mac
+* [Drawbridge](https://en.wikipedia.org/wiki/Drawbridge,_California) is the [last ghost town](https://www.kqed.org/news/11549263/the-island-ghost-town-in-the-middle-of-san-francisco-bay) in the San Francisco Bay Area
+
 ### 2020-12-05
 
-* 
+* [Watch](https://arstechnica.com/science/2020/12/nsf-had-a-drone-watching-as-arecibos-cables-snapped/) the Arecibo telescope collapse :¬(
+* Where to sit in a car and which windows to open in a car with a potentially virulent COVID-19 patient, according to a [new study](https://www.eurekalert.org/pub_releases/2020-12/bu-rrh120420.php) from Brown. In the most common seating arrangement in ridesharing services where the passenger sits in the rear right seat and the driver in the front left, opening the windows opposite the occupants generates a diagonal flow of air through the car that separates the passenger's air from the driver's air. According to the fluid modeling of this study, usually air flows into the car from the rear windows, and exits the car from the front windows when all windows are open. The best is to open all four windows. **"Driving around with the windows up and the air conditioning or heat on is definitely the worst scenario."**
 
 ### 2020-12-04
 
-* [Taper magazine](https://taper.badquar.to/), by [Bad Quarto](https://badquar.to/)
-
 * If you have a *qudit*, or a $d$-valued version of a qubit, the pure states are $\vert0\rangle,~\vert\frac{1}{d-1}\rangle,~\vert\frac{2}{d-1}\rangle,\ldots\vert\frac{d-2}{d-1}\rangle$. In a 2-state qubit, the pure states are of course just $\vert0\rangle$ and $\vert1\rangle$. A pure state of $\vert\frac{k}{d-1}\rangle=\begin{bmatrix}0 \\\ \vdots \\\ 1\\\ \vdots\\\ 0\end{bmatrix}$
 
-* The [Fredkin gate](https://en.wikipedia.org/wiki/Fredkin_gate) in quantum computing (CSWAP) takes 3 inputs and swaps two of them based on the input of the third. The matrix form contains the equal number of $0$'s and $1$'s, which by the [billiard-ball model](https://en.wikipedia.org/wiki/Billiard-ball_computer) indicates that it conserves energy/information.
+* The [Fredkin gate](https://en.wikipedia.org/wiki/Fredkin_gate) in quantum computing (CSWAP) takes 3 inputs and swaps two of them based on the input of the third. The matrix form conserves $0$'s and $1$'s, which by the [billiard-ball model](https://en.wikipedia.org/wiki/Billiard-ball_computer) indicates that the gate conserves energy/information.
   
   $$
   \begin{bmatrix}
@@ -35,13 +40,15 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
   
 * [Solving 3-SAT](http://www.gcn.us.es/4BWMC/vol2/quantumnp.pdf) using 3 different quantum approaches: quantum circuits, quantum register machines, and [quantum membrane computing](http://www.seerc.org/wmc8/procedings_web/pages033-56.pdf)
 
+* [Taper magazine](https://taper.badquar.to/), by [Bad Quarto](https://badquar.to/)
+
 * [hedonometer.org](http://hedonometer.org/timeseries/en_all/?from=2008-09-09&to=2020-12-03) of Twitter sentiment over time. Every Christmas since 2015 has been sadder than the year before. The variance in the trend is increasing: maybe due to media that is made to incite outrage, fear, and anger, there are more spikes and dips in recent years than ever before. May 30, 2020 was the saddest day in the history of Twitter.
   
   <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Yesterday was the saddest day in the history of <a href="https://twitter.com/Twitter?ref_src=twsrc%5Etfw">@Twitter</a> <a href="https://t.co/91VP3Ywtnr">pic.twitter.com/91VP3Ywtnr</a></p>&mdash; hedonometer (@hedonometer) <a href="https://twitter.com/hedonometer/status/1266774310565425154?ref_src=twsrc%5Etfw">May 30, 2020</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ### 2020-12-03
 
-* If you have a set of points in a verticle line, spaced $d$ apart, and another point $\ell$ away from the very first point, and you draw lines connecting that top point to each point on the line, the angle formed by $\theta=\arctan(\frac{d}{\ell})$. With infinitely many points, $\lim_{d\to\infty}{\arctan{(\frac{d}{\ell})}}=\frac{\pi}{2}=90^\circ$. As you add points, $\frac{\partial}{\partial \ell}\arctan{(\frac{d}{\ell})} = \frac{\ell}{d^2+\ell^2}$, meaning that the angle changes proportional to $\frac{1}{d^2}$ when $\ell$ is a constant. This is both cool and neat.
+* If you have a set of points in a vertical line, spaced $d$ apart, and another point $\ell$ away from the very first point, and you draw lines connecting that top point to each point on the line, the angle formed by $\theta=\arctan(\frac{d}{\ell})$. With infinitely many points, $\lim_{d\to\infty}{\arctan{(\frac{d}{\ell})}}=\frac{\pi}{2}=90^\circ$. As you add points, $\frac{\partial}{\partial \ell}\arctan{(\frac{d}{\ell})} = \frac{\ell}{d^2+\ell^2}$, meaning that the angle changes proportional to $\frac{1}{d^2}$ when $\ell$ is a constant. This is both cool and neat.
 
   ```
   <-length l->
@@ -69,7 +76,7 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 ### 2020-11-30
 
-* If mac won't open an app from an unidentified developer claiming that it's damaged, run `xattr -cr /path/to/application.app` to clear the lock on it. 
+* If MacOS refuses to open an app from an unidentified developer (claiming that the code is damaged), run `xattr -cr /path/to/application.app` to clear the permissions and allow it to run.
 
 ### 2020-11-29
 
@@ -78,7 +85,7 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 ### 2020-11-28
 
-* If you need to implement a priority queue that has a fixed number of values for the primary ordering (like if you are storing scheduling appointments by the minute, you only have $24\cdot60=1440$ minutes), you can use a lookup-based approach where in a $1440\times1440$ array that stores the number of requests that start at the row index and end at the column index. In another $1\times1440$ array, store the number of requests that end that minute. Then you can traverse your fixed length 1D array, and find the first ending time to traverse for in your 2D array. This is asymptotically constant time, since $1440$ is a constant. This can be pretty slow though in practice.
+* If you need to implement a priority queue that has a fixed number of values for the primary ordering (like if you are storing scheduling appointments by the minute, you only have $24\times60=1440$ minutes), you can use a lookup-based approach where in a $1440\times1440$ array that stores the number of requests that start at the row index and end at the column index. In another $1\times1440$ array, store the number of requests that end that minute. Then you can traverse your fixed length 1D array, and find the first ending time to traverse for in your 2D array. This is asymptotically constant time, since $1440$ is a constant. This can be pretty slow though in practice.
 * Added the outline on the left hand side. I used [jekyll-toc](https://github.com/allejo/jekyll-toc)
 
 ### 2020-11-27

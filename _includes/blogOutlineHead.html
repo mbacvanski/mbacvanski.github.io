@@ -7,10 +7,6 @@
 	<link rel="stylesheet" href="{{ '/styles/styles.css' | prepend:site.url }}">
 	<link rel="stylesheet" href="{{ '/styles/syntax.css' | prepend:site.url }}">
 
-	<!-- Load KaTeX -->
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.css">
-	<script src="//cdnjs.cloudflare.com/ajax/libs/KaTeX/0.1.1/katex.min.js"></script>
-
 	<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-163967035-1"></script>
 	<script>
@@ -24,6 +20,22 @@
 
       gtag('config', 'UA-163967035-1');
 	</script>
+
+    <script type="text/x-mathjax-config">
+      MathJax.Hub.Config({
+        tex2jax: {
+          inlineMath: [ ['$','$'], ['$$', '$$'], ["\\(","\\)"] ],
+          displayMath: [['$$', '$$'], ['\\[', '\\]']],
+          processEscapes: true
+        }
+      });
+    </script>
+    
+    <script
+      type="text/javascript"
+      charset="utf-8"
+      src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"
+    ></script>
 
 </head>
 

@@ -8,6 +8,23 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-12-09
+
+* [Strange Chinese domains](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains#Chinese%20characters) like `.xn--czru2d` are actually supposed to be displayed as Chinese characters, due to [Internationalized Domain Names](https://en.wikipedia.org/wiki/Internationalized_domain_name) (IDN). The domain `xn--45q11c` is supposed to be displayed as `.八卦`, meaning "gossip".
+* [This](https://jeffe.cs.illinois.edu/teaching/algorithms/notes/A-fft.pdf) super approachable lecture notes on the Fast Fourier Transform, by [Jeff Erickson](https://jeffe.cs.illinois.edu/teaching/algorithms/) who has a great book on algorithms in general.
+* Incrementing and decrementing a binary counter using [Gray Codes](https://en.wikipedia.org/wiki/Gray_code) is always constant time, because Gray codes hold the invariant that adjacent binary numbers differ only in 1 bit. Gray codes are also cyclic, in that to roll over from 15 to 0 also requires only one bit flip. Gray codes can even provide a [solution to the Towers of Hanoi puzzle](https://en.wikipedia.org/wiki/Tower_of_Hanoi#Gray-code_solution). Here's a recent paper on [using Gray codes to reduce noise in quantum computing](https://arxiv.org/pdf/2008.05012.pdf)! It covers how to create operators that work on qubits with Gray encoding, and shows how it can be much more qubit efficient than the Jordan-Wigner encoding.
+
+### 2020-12-08
+
+* [Super Mario is not just NP Hard but NP Complete.](https://arxiv.org/pdf/1203.1895.pdf) So is Zelda, Pokemon, and several others.
+* [2020 State of European Technology](https://2020.stateofeuropeantech.com/)
+
+### 2020-12-07
+
+* In 2018, 2.6 million articles [were published](https://ncses.nsf.gov/pubs/nsb20206/) in peer reviewed journals, up from 1.8 million in 2008.
+* This research paper on how [human language reveals a universal positivity bias](https://www.pnas.org/content/pnas/112/8/2389.full.pdf)
+* Theo Jansen, inventor of the Strandbeest, [explains the wind](https://www.youtube.com/watch?v=WkZsEwFWeFo).
+
 ### 2020-12-06
 
 * [The 12 Factor App](https://12factor.net/)

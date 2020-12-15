@@ -8,6 +8,34 @@ I try to learn or discover something new every day. Here are some of the things 
 
 I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
 
+### 2020-12-14
+
+* I forget what's the difference and have to look it up every time. Here it is.
+
+| Mutual Fund / Index Fund                          | ETF (Exchange Traded Fund)                  |
+| ------------------------------------------------- | ------------------------------------------- |
+| Managed by a "professional", usually has fees     | Not actively managed, no fees               |
+| Follows the index, but the manager has discretion | Pretty much follows the index               |
+| Priced only at the end of the day                 | Can be bought and sold anytime, like stocks |
+
+### 2020-12-13
+
+* [swillkb](http://builder.swillkb.com/) keyboard plate builder ... new keyboard sometime soon? Uses layout from [keyboard layout editor](http://www.keyboard-layout-editor.com/#/)
+
+### 2020-12-12
+
+* [2020's Sexiest Prime Number Couples](https://jabde.com/2020/11/27/top-10-sexiest-prime-couples-of-2020/). I didn't expect 67 and 73 to be so high up 🤭
+
+### 2020-12-11
+
+* $\sum_{i=0}^{n}\frac{1}{i}=\int_{0}^{n}{\frac{1}{x}dx}\approx ln(x)$.  Finding the sum, for sufficiently large $n$, is akin to finding the area under the curve. Didn't learn this but I definitely forgot it previously.
+* Adding 1 to all the edge weights in a graph does not preserve the minimum weight path. You could have a situation with two paths from a source to a sink, one with 10 edges and one with only one edge. The path with 10 edges, while it may be less weight than the path with only one edge, will increase by weight 20, whereas the path with only one edge will increase by only 1.
+* The [Human Connectome Project](http://www.humanconnectomeproject.org/)
+
+### 2020-12-10
+
+* I need to devote some time every week (maybe on Saturday mornings) to do all the tiny but important things that I need to do but never get around to, like checking my credit card statement, doing work for that one class, making sure my backups are working, etc.
+
 ### 2020-12-09
 
 * [Strange Chinese domains](https://en.wikipedia.org/wiki/List_of_Internet_top-level_domains#Chinese%20characters) like `.xn--czru2d` are actually supposed to be displayed as Chinese characters, due to [Internationalized Domain Names](https://en.wikipedia.org/wiki/Internationalized_domain_name) (IDN). The domain `xn--45q11c` is supposed to be displayed as `.八卦`, meaning "gossip".
@@ -647,7 +675,7 @@ I usually update this every so often with a few days at once. Dates in `YYYY-MM-
 
 ### 2020-09-03
 
-* How to set up a custom message to greet people on your SSH server
+* How to set up a [custom message](https://serverfault.com/questions/407033/how-can-i-edit-the-welcome-message-when-ssh-start) to greet people on your SSH server
 
 ### 2020-09-02
 

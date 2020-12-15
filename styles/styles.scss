@@ -303,7 +303,10 @@
     }
 
     blockquote {
-      margin: 0;
+      p {
+        color: lighten($p-color, 20%);
+        margin: 0;
+      }
     }
 
     ol, ul {

@@ -101,6 +101,10 @@
       margin-right: 1rem;
     }
 
+    div.MathJax_Display {
+      padding-bottom: 10px;    
+    }
+
     // typography: heading
     h1, h2, h3 {
       color: $heading-color;

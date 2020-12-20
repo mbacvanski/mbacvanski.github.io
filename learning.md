@@ -4,19 +4,45 @@ title: A Few Things I Learn Every Day
 mathjax: true
 ---
 
-I try to learn or discover something new every day. Here are some of the things that I get excited about!
+I try to learn or discover something new every day. Here are some of the things that I get excited about! Dates in `YYYY-MM-DD`.
 
-I usually update this every so often with a few days at once. Dates in `YYYY-MM-DD`.
+Update December 14: Switching to a weekly format, instead of daily updates.
 
-### 2020-12-14
+### Week of 2020-12-14
 
-* I forget what's the difference and have to look it up every time. Here it is.
+I've just finished my final exams, and I'm going to be switching to a weekly format for my log of learnings. I'm hoping this will be more sustainable particularly over the holidays, as well as allow me to put down not just tidbits of learnings but also the progress towards substantial goals that I'm working towards. 
 
-| Mutual Fund / Index Fund                          | ETF (Exchange Traded Fund)                  |
-| ------------------------------------------------- | ------------------------------------------- |
-| Managed by a "professional", usually has fees     | Not actively managed, no fees               |
-| Follows the index, but the manager has discretion | Pretty much follows the index               |
-| Priced only at the end of the day                 | Can be bought and sold anytime, like stocks |
+* To make `Home` and `End` keys work on an external keyboard on mac, create file `~/Library/KeyBindings/DefaultKeyBinding.dict` and in it put
+
+  ```
+  {
+    /* Remap Home / End keys */
+  	  /* Home Button*/
+    "\UF729" = "moveToBeginningOfLine:"; 
+    	/* End Button */
+    "\UF72B" = "moveToEndOfLine:"; 
+  	  /* Shift + Home Button */
+    "$\UF729" = "moveToBeginningOfLineAndModifySelection:";   
+    	/* Shift + End Button */
+    "$\UF72B" = "moveToEndOfLineAndModifySelection:"; 		  
+    	/* Ctrl + Home Button */
+    "^\UF729" = "moveToBeginningOfDocument:";   
+    	/* Ctrl + End Button */
+    "^\UF72B" = "moveToEndOfDocument:";   
+     	/* Shift + Ctrl + Home Button */
+    "$^\UF729" = "moveToBeginningOfDocumentAndModifySelection:";  
+    	/* Shift + Ctrl + End Button*/
+    "$^\UF72B" = "moveToEndOfDocumentAndModifySelection:"; 
+  }
+  ```
+
+* You can install Apple `system-ui` fonts from https://developer.apple.com/fonts/
+
+* If you run [120VAC through a pickle](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/pickle.html#c1), you get pure sodium light from the Na+ and Cl- ions from pickling. 
+
+* *"Once you open the box, however, it will either be dead or alive – the superposition will have collapsed to a single state. This is a bit of an unrealistic experiment, but it does illustrate one key point: Schrödinger did not like cats. This also illustrates the point that QM assumes no knowledge of anything that is not experimentally observable, because observation has the potential to change the outcome of later experiments."* - [MIT OCW](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/lecture-notes/sec1.pdf)
+
+* 
 
 ### 2020-12-13
 

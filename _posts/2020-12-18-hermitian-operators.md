@@ -14,7 +14,7 @@ $$
 \hat{H}\vert\psi\rangle = h\vert\psi\rangle \qquad\text{and}\qquad \langle\psi\vert\hat{H} = \langle\psi\vert h^*
 $$
 
-Now let's take the inner product of the left equation with $\langle\psi\vert$, and the inner product of the right equation with $\vert\psi\rangle$. 
+Now let's take the inner product of the left equation with $\langle\psi\vert$, and the inner product of the right equation with $\vert\psi\rangle$. This is a pretty cool trick.
 
 $$
 \langle\psi\vert\hat{H}\vert\psi\rangle = h\langle\psi\vert\psi\rangle \qquad\text{and}\qquad \langle\psi\vert\hat{H}\vert\psi\rangle = \langle\psi\vert\psi\rangle h^*

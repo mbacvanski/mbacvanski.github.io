@@ -8,5 +8,6 @@ layout: small_title
 
 *{{ post.date | date: '%B %d, %Y' }}*
 
-{{ post.content | strip_html | truncatewords: 30 }} [Read more]({{ post.url }})
+{{ post.content | strip_html | truncatewords: 40 }} [Read more]({{ post.url }})
+
 {% endfor %}

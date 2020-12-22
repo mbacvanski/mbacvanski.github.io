@@ -12,6 +12,8 @@ Update December 14: Switching to a weekly format, instead of daily updates.
 
 I've just finished my final exams, and I'm going to be switching to a weekly format for my log of learnings. I'm hoping this will be more sustainable particularly over the holidays, as well as allow me to put down not just tidbits of learnings but also the progress towards substantial goals that I'm working towards. 
 
+* Wrote a [blog post](/blog/hermitian-operators) about the proofs for two unique properties of Hermitian operators. Why are the eigenvalues always real? Why are the eigenvectors always orthogonal?
+
 * To make `Home` and `End` keys work on an external keyboard on mac, create file `~/Library/KeyBindings/DefaultKeyBinding.dict` and in it put
 
   ```
@@ -38,11 +40,9 @@ I've just finished my final exams, and I'm going to be switching to a weekly for
 
 * You can install Apple `system-ui` fonts from https://developer.apple.com/fonts/
 
-* If you run [120VAC through a pickle](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/pickle.html#c1), you get pure sodium light from the Na+ and Cl- ions from pickling. 
+* If you run [120VAC through a pickle](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/pickle.html#c1), you get pure sodium light from the Na+ and Cl- ions produced from pickling. 
 
 * *"Once you open the box, however, it will either be dead or alive – the superposition will have collapsed to a single state. This is a bit of an unrealistic experiment, but it does illustrate one key point: Schrödinger did not like cats. This also illustrates the point that QM assumes no knowledge of anything that is not experimentally observable, because observation has the potential to change the outcome of later experiments."* - [MIT OCW](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/lecture-notes/sec1.pdf)
-
-* 
 
 ### 2020-12-13
 

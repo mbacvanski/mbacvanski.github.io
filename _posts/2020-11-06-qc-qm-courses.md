@@ -4,11 +4,13 @@ mathjax: true
 layout: blog_outline
 ---
 
+Listing of quantum physics and quantum computing courses I found. Current as of November 2020.
+
 Foundational QC Courses
 -----------------------
 
 ##### [Quantum Computing. Less Formulas - More Understanding](https://www.coursera.org/learn/quantum-computing-lfmu?aid=true) Coursera (5 weeks)
--   Course by the same dude at St. Petersburg University, but he claims to focus "on how the mathematical model of quantum computing grows out from physics and experiment, while omitting most of the formulas (when possible) and rigorous proofs."
+-   Course by the same professor at St. Petersburg University who taught [this course](https://www.coursera.org/learn/quantum-computing-algorithms) (extremely math heavy, not a great experience for me). This course claims to focus "on how the mathematical model of quantum computing grows out from physics and experiment, while omitting most of the formulas (when possible) and rigorous proofs."
 -   Begins with math of quantum computing, then math of quantum physics, then a bit of physics
 
 ##### [Purdue: Micro Master's in Quantum Computing](https://www.edx.org/micromasters/purduex-quantum-technology-computing) EDX (9 months, 7-9 hours per week, $4725)
@@ -49,6 +51,7 @@ Quantum Mechanics
 
 ##### MIT: Mastering Quantum Mechanics EDX
 *"Completing the 3-part Quantum Mechanics series will give you the necessary foundation to pursue advanced study or research at the graduate level in areas related to quantum mechanics."* Follows MIT's 8.05.
+
 -   Part 1: [Wave Mechanics](https://www.edx.org/course/mastering-quantum-mechanics-part-1-wave-mechanics) (4 weeks, self-paced, free  / $50)
     -   Some knowledge of wave mechanics at undergrad introductory level required
     -   Basics of wave mechanics, variational principle, spin one-half states, spin operators, Dirac notations

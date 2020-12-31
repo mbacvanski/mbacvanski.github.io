@@ -5,7 +5,7 @@ title: 2020 Recap
 
 
 
-Hey there!
+Hello!
 
 Thanks for checking out my 2020 recap! I'm super fortunate to have done some exciting things this year, and I hope you find them interesting!
 
@@ -34,7 +34,7 @@ I decided not to return to Boston in the fall, and instead opted to take classes
 * EECE2160: Embedded Design for Robotics was a fun introduction to the world of embedded programming using C++ and Verilog. I'm a sucker for switches, hardware, and flashing LEDs, so I enjoyed the projects.
 * CS3000: Algorithms and Data Structures, for which you can find my notes [here](/blog/cs3000).
 
-This year I took on a role as a venture analyst at [Northeastern's IDEA venture accelerator](https://www.northeastern.edu/idea/), which was an incredibly fun and rewarding experience. I loved working closely with startup founders, learning about their stories and ventures, and mentoring their ventures.
+This year I took on a role as a venture analyst at [Northeastern's IDEA venture accelerator](https://www.northeastern.edu/idea/), which was an incredibly fun and rewarding experience. I loved working closely with startup founders, learning about their stories, and mentoring their ventures.
 
 Looking forward, I'm starting a [quantum computing club at Northeastern](https://www.neuqc.org), where I hope to share my excitement for this field with others and learn together. Starting in January 2021, I'm excited to be working as a software co-op at [Vicarious Surgical](https://www.vicarioussurgical.com/).
 

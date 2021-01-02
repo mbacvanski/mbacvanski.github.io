@@ -1,6 +1,6 @@
 ---
 layout: blog_outline
-title: A Few Things I Learn Every Day
+title: A Few Things I Learn Every <s>Day</s> Week
 mathjax: true
 ---
 
@@ -10,9 +10,10 @@ Update December 14: Switching to a weekly format, instead of daily updates.
 
 ### Week of 2020-12-28
 
-* The DFT's Fourier matrix is constructed where the $(i,j)$'th element of $F_n$ is $w^{ij}$, when $i,j=0\dots n-1$. $n$ is the size of the square matrix, and $w$ is a **root of unity**. A root of unity is a complex number that, when raised to some power $n$, yeilds $1$. We could write $w=e^{2\pi i/n}$, since then $w^n=(e^{2\pi i / n})^n=e^{2\pi i}=1$ by Euler's identity. Often, when this matrix is used, the factors are normalized by $\frac{1}{\sqrt{n}}$, so you could write the $(i,j)$'th element of $F_n$ is $\frac{w^{ij}}{\sqrt n}$. Here's the matrix for $n=4$.
+* The DFT's Fourier matrix is constructed where the $(i,j)$'th element of $F_n$ is $w^{ij}$, when $i,j=0\dots n-1$. $n$ is the size of the square matrix, and $w$ is a **root of unity**. A root of unity is a complex number that, when raised to some power $n$, yeilds $1$. We could write $w=e^{2\pi i/n}$, since then $w^n=(e^{2\pi i / n})^n=e^{2\pi i}=1$ by Euler's identity. Often, when this matrix is used, the factors are normalized by $\frac{1}{\sqrt{n}}$, so you could write the $(i,j)$'th element of $F_n$ is $\frac{w^{ij}}{\sqrt n}$.
+
   $$
-  F_4=\frac{1}{\sqrt{n}}\begin{bmatrix}
+  F_n=\frac{1}{\sqrt{n}}\begin{bmatrix}
   w^0&w^0&w^0&w^0&\cdots&w^0\\
   w^0&w^1&w^2&w^3&\cdots&w^{n-1}\\
   w^0&w^2&w^4&w^6&\cdots&w^{2(n-1)}\\
@@ -25,19 +26,12 @@ Update December 14: Switching to a weekly format, instead of daily updates.
 ### Week of 2020-12-21
 
 * If your basis states are $\vert\leftrightarrow\rangle$ and $\vert\updownarrow\rangle$, then $\vert\nearrow\rangle=\frac{1}{\sqrt{2}}(\vert\leftrightarrow\rangle+\vert\updownarrow\rangle)$, and you can even define *circular polarization* with $\vert\circlearrowright\rangle=\frac{1}{\sqrt{2}}(\vert\leftrightarrow\rangle-i\vert\updownarrow\rangle)$.
-
 * When we are dealing with qubits, the reason we can express a qubits' 2-dimensional complex vector space as a 3-dimensional real vector space is because we also know that **a qubit's vector within this 2D complex vector space is normalized**. We know for sure that the length is one, so we can represent all this data with just 3 real dimensions instead of 4.
-
 * Complexity class [#P (Sharp P)](https://en.wikipedia.org/wiki/%E2%99%AFP) is the class of problems dealing with counting the number of solutions to a problem in complexity class NP. #P is outside of both P and NP. Then you can count the number of counting problems, and so on and so forth. *"This is how you get a career as a theoretical computer scientist"* – Isaac Chuang
-
 * Learned how to set up the [Kong API gateway](https://konghq.com/) and use [Artillery](https://artillery.io/) for testing API speed and throughput.
-
 * To [set Go version in a Heroku app](https://github.com/heroku/heroku-buildpack-go/issues/301), you can set the `GOVERSION` config var to be your version, like `1.15`.
-
 * [Website response times](https://blog.newrelic.com/engineering/expected-distributions-website-response-times/) aren't Gaussian, but can be better approximated by a Log-normal or Erlang distribution.
-
 * To remap keys on Linux, edit `/usr/share/X11/xkb/symbols/pc`. Remove the xkb cache with `sudo rm -rf /var/lib/xkb/*`, then reboot.
-
 * To show statistics from curl, can use this function in `/.zshrc`: 
   ```shell
   function perf {
@@ -50,7 +44,6 @@ Update December 14: Switching to a weekly format, instead of daily updates.
 I've just finished my final exams, and I'm going to be switching to a weekly format for my log of learnings. I'm hoping this will be more sustainable particularly over the holidays, as well as allow me to put down not just tidbits of learnings but also the progress towards substantial goals that I'm working towards. 
 
 * Wrote a blog post about the proofs for two unique properties of Hermitian operators. Why are the eigenvalues always real? Why are the eigenvectors always orthogonal? [Find out now.](/blog/hermitian-operators)
-
 * To make `Home` and `End` keys work on an external keyboard on mac, create file `~/Library/KeyBindings/DefaultKeyBinding.dict` and in it put
 
   ```
@@ -76,9 +69,7 @@ I've just finished my final exams, and I'm going to be switching to a weekly for
   ```
 
 * You can install Apple `system-ui` fonts from [https://developer.apple.com/fonts](https://developer.apple.com/fonts/)
-
 * If you run [120VAC through a pickle](http://hyperphysics.phy-astr.gsu.edu/hbase/electric/pickle.html#c1), you get pure sodium light from the Na+ and Cl- ions produced from pickling. 
-
 * *"Once you open the box, however, it will either be dead or alive – the superposition will have collapsed to a single state. This is a bit of an unrealistic experiment, but it does illustrate one key point: Schrödinger did not like cats. This also illustrates the point that QM assumes no knowledge of anything that is not experimentally observable, because observation has the potential to change the outcome of later experiments."* - [MIT OCW](https://ocw.mit.edu/courses/chemistry/5-73-introductory-quantum-mechanics-i-fall-2005/lecture-notes/sec1.pdf)
 
 ### 2020-12-13

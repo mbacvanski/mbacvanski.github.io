@@ -9,7 +9,7 @@ Hello!
 
 Thanks for checking out my 2020 recap! I'm super fortunate to have done some exciting things this year, and I hope you find them interesting!
 
-In March, I came back to the Bay Area for spring break. Midway through, I got very sick, and decided not to fly back the day I was supposed to return to Boston. Within the next few days, Northeastern cancelled in-person classes, and I never actually went back to Boston. My roommates and several of my friends were incredibly kind and mailed some of my belongings back, and stored the rest of my stuff with them.
+In March, I came back to the Bay Area for spring break. Midway through, I got very sick, and decided not to fly back the day I was supposed to return to Boston. Within the next few days, Northeastern cancelled in-person classes, and I never went back to Boston. My roommates and several of my friends were incredibly kind and mailed some of my belongings back, and stored the rest of my stuff with them.
 
 I finished up the semester from home, and decided to learn to play the saxophone. I've been spending many enjoyable evenings learning jazz theory!
 
@@ -43,3 +43,8 @@ I have so much to be grateful for in 2020 – my family, mentors, friends, and a
 <br>
 
 – Marc
+
+<span>
+<img src="assets/2020-recap/me_on_a_tree.jpg" alt="Picture of me at the beach, on a tree." style="width: 49%"/>
+<img src="assets/2020-recap/DSCF7809_brighter.jpg" alt="A picture I took." style="width: 49%"/>
+</span>

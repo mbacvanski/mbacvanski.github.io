@@ -10,10 +10,9 @@ I love startups, case competitions, hip hop dance, jazz, learning to play the sa
 
 ## Currently
 
+- 🦾 Software engineering intern at [Vicarious Surgical](https://www.vicarioussurgical.com/)!
 - ♣️ Starting a [quantum computing club](https://www.neuqc.org) at Northeastern University! If you're interested, follow the link to join our mailing list. We're looking for passionate people to help run the club – if that's you, [shoot me an email](mailto:bacvanski.m@northeastern.edu)!
-- 🦾 Joining [Vicarious Surgical](https://www.vicarioussurgical.com/) as a software co-op – starting January 2021!
 - ✨ [Learning](/learning) something new and exciting every day
-- 👀 Searching for an internship for Summer 2021, particularly in quantum computing or artificial intelligence. Here is my [resume](/assets/Marc%20Bacvanski%20Resume.pdf)!
 
 ## Recently
 

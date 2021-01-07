@@ -8,6 +8,22 @@ I try to learn or discover something new every day. Here are some of the things 
 
 Update December 14: Switching to a weekly format, instead of daily updates.
 
+### Week of 2021-01-04
+
+* The complex analogue of an *orthogonal* matrix, $A^T=A^{-1}$ and $A^TA=I$, is the *unitary* matrix, where $A^\dagger=A^{-1}$, so that $A^\dagger A=I$.
+
+  The complex analogue of a *symmetric* matrix, $A^T=A$, is the *Hermitian* matrix, where $A^\dagger=A$.
+* $\frac{n}{11}=0.\bar{x}$ where $x=9n$. For example, $\frac{7}{11}=0.\overline{63}=0.6363636363\dots$ and $9\cdot7=63$.
+* With edX's switch to hosting video files on their own server, the old `edx-dl` tool no longer works. Fortunately, someone has made a [fork of the repo that does work](https://github.com/RJFeddeler/edx-dl).
+* `ffmpeg -i video.mp4 -i audio.m4a -acodec copy -vcodec copy output.mp4` to merge separate audio and video tracks
+* [Quantum Flytrap](https://lab.quantumflytrap.com/lab) for super cool quantum mechanics demonstrations
+* List comprehensions in Haskell are brilliant. Fizzbuzz:
+  ```haskell
+  fizzbuzz z = [if x `mod` 3 == 0 then "fizz" else if x `mod` 5 == 0 then "buzz" 
+                else show x | x <- [1..z]]
+  ```
+* Oh yeah I also (re)learned React.
+
 ### Week of 2020-12-28
 
 * The DFT's Fourier matrix is constructed where the $(i,j)$'th element of $F_n$ is $w^{ij}$, when $i,j=0\dots n-1$. $n$ is the size of the square matrix, and $w$ is a **root of unity**. A root of unity is a complex number that, when raised to some power $n$, yeilds $1$. We could write $w=e^{2\pi i/n}$, since then $w^n=(e^{2\pi i / n})^n=e^{2\pi i}=1$ by Euler's identity. Often, when this matrix is used, the factors are normalized by $\frac{1}{\sqrt{n}}$, so you could write the $(i,j)$'th element of $F_n$ is $\frac{w^{ij}}{\sqrt n}$.
@@ -22,6 +38,10 @@ Update December 14: Switching to a weekly format, instead of daily updates.
   w^0&w^{n-1}&w^{2(n-1)}&w^{3(n-1)}&\cdots&w^{(n-1)(n-1)}
   \end{bmatrix}
   $$
+* Turning off night shift on mac stops external monitor flickering
+* How to use the mask layer in Affinity Photo
+* Blue + Red O-rings on Cherry Blue switches limits the travel the perfect amount – just past the click you hit the nice and soft bottom out.
+* On linux, [script to center the active window](https://gist.github.com/SergKolo/328548cc3c2b4597d7f7ab91db26709d) 
 
 ### Week of 2020-12-21
 

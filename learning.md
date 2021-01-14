@@ -8,21 +8,39 @@ I try to learn or discover something new every day. Here are some of the things 
 
 Update December 14: Switching to a weekly format, instead of daily updates.
 
+### Week of 2021-01-11
+
+* We know about `snake_case`, but the official name for its cousin is `SCREAMING_SNAKE_CASE` 😱
+* [Share terminal app as a web app](https://github.com/yudai/gotty). This would be perfect for my [air quality monitoring script](https://gist.github.com/mbacvanski/8d255433fe25adb431e310a687719ddb).
+* Re-familiarized myself with working with Pandas dataframes
+* Got comfortable with working with Postgresql and jsonb documents
+* To get that fancy conda env tab in Jupyter notebook, `conda install nb_conda` in your `base` env or whichever environment you start Jupyter notebook from should do the trick.
+* I want to do more stuff with haskell.
+
 ### Week of 2021-01-04
+
+* I (re)learned React. I also learned TypeScript and am very much enjoying typed callback functions. I also finally took a course on CSS instead of Googling "how to center a div" for the millionth time. I've been enjoying Tailwind UI's components as well as ANT Design's charts and graphs.
 
 * The complex analogue of an *orthogonal* matrix, $A^T=A^{-1}$ and $A^TA=I$, is the *unitary* matrix, where $A^\dagger=A^{-1}$, so that $A^\dagger A=I$.
 
   The complex analogue of a *symmetric* matrix, $A^T=A$, is the *Hermitian* matrix, where $A^\dagger=A$.
-* $\frac{n}{11}=0.\bar{x}$ where $x=9n$. For example, $\frac{7}{11}=0.\overline{63}=0.6363636363\dots$ and $9\cdot7=63$.
+  
+* 9 and 11 have this intriguing property:
+
+  > $\frac{n}{11}=0.\overline{x}$ where $x=9n$. For example, $\frac{7}{11}=0.\overline{63}=0.6363636363\dots$ and $9\cdot7=63$.
+  > $\frac{n}{9} = 0.\overline{x}$ where $x=11n$. For example, $\frac{7}{9}=0.\overline{77}=0.7777777777\dots$  and $11\cdot7=77$.
+
 * With edX's switch to hosting video files on their own server, the old `edx-dl` tool no longer works. Fortunately, someone has made a [fork of the repo that does work](https://github.com/RJFeddeler/edx-dl).
+
 * `ffmpeg -i video.mp4 -i audio.m4a -acodec copy -vcodec copy output.mp4` to merge separate audio and video tracks
+
 * [Quantum Flytrap](https://lab.quantumflytrap.com/lab) for super cool quantum mechanics demonstrations
+
 * List comprehensions in Haskell are brilliant. Fizzbuzz:
   ```haskell
   fizzbuzz z = [if x `mod` 3 == 0 then "fizz" else if x `mod` 5 == 0 then "buzz" 
                 else show x | x <- [1..z]]
   ```
-* Oh yeah I also (re)learned React.
 
 ### Week of 2020-12-28
 

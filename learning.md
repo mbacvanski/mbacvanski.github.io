@@ -12,10 +12,11 @@ Update December 14: Switching to a weekly format, instead of daily updates.
 
 * We know about `snake_case`, but the official name for its cousin is `SCREAMING_SNAKE_CASE` 😱
 * [Share terminal app as a web app](https://github.com/yudai/gotty). This would be perfect for my [air quality monitoring script](https://gist.github.com/mbacvanski/8d255433fe25adb431e310a687719ddb).
-* Re-familiarized myself with working with Pandas dataframes
+* Re-familiarized myself with working with Pandas and seaborn
 * Got comfortable with working with Postgresql and jsonb documents
 * To get that fancy conda env tab in Jupyter notebook, `conda install nb_conda` in your `base` env or whichever environment you start Jupyter notebook from should do the trick.
-* I want to do more stuff with haskell.
+* [Make custom blobs](https://www.blobmaker.app/)
+* Create Tailwind or other UIs visually [real quick](https://shuffle.dev/)
 
 ### Week of 2021-01-04
 

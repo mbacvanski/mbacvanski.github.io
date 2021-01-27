@@ -6,7 +6,18 @@ mathjax: true
 
 I try to learn or discover something new every day. Here are some of the things that I get excited about! Dates in `YYYY-MM-DD`.
 
-Update December 14: Switching to a weekly format, instead of daily updates.
+Update December 14, 2020: Switching to a weekly format, instead of daily updates.
+
+### Week of 2021-01-18
+
+* Finished reading *Anna Karenina* (finally!); Libby says I read it for 15 hours and 38 minutes total which definitely shouldn't have taken me 7 months.
+* Learned TypeScript last week. Turns out it's called TypeScript because the syntax requires so much typing.
+* Printing a line to console with `\r` (carriage return) puts the cursor at the beginning of the line, meaning that the next line you print will overwrite the previous line.
+* Worked a ton with React, Tailwind CSS, and Firebase
+* Learned a lot about the robot and systems at work
+* These past weeks I've learned that it's pretty hard to learn things when one has work. I'm definitely learning a lot through work, but I'm not sure how to write down those things I learn. I'm hoping this is because it's generally hard to write down learnings, rather than that I'm not really learning anything. It's easy to write down buzzwords, syllabi topics, and short snippets of code, but the types of things I'm learning at work is *how to do things*. That's probably the whole point of co-op, whereas learning *things* is what you get through classes and academia. I like learning things.
+* React's `useEffect()` hook is akin to Verilog's `always@()` statement, where assignments get updated whenever a register in the dependency list changes value. This is cool.
+* You can make your own directional wifi antenna with a can of beans and a [coaxial connector](https://www.amazon.com/BOOBRIE-Chassis-Coaxial-Connector-Adapter/dp/B07DC1JYZL/ref=pd_day0_3). Turns out wifi is more than just magic.
 
 ### Week of 2021-01-11
 
@@ -21,22 +32,17 @@ Update December 14: Switching to a weekly format, instead of daily updates.
 ### Week of 2021-01-04
 
 * I (re)learned React. I also learned TypeScript and am very much enjoying typed callback functions. I also finally took a course on CSS instead of Googling "how to center a div" for the millionth time. I've been enjoying Tailwind UI's components as well as ANT Design's charts and graphs.
-
 * The complex analogue of an *orthogonal* matrix, $A^T=A^{-1}$ and $A^TA=I$, is the *unitary* matrix, where $A^\dagger=A^{-1}$, so that $A^\dagger A=I$.
-
   The complex analogue of a *symmetric* matrix, $A^T=A$, is the *Hermitian* matrix, where $A^\dagger=A$.
-  
 * 9 and 11 have this intriguing property:
 
   > $\frac{n}{11}=0.\overline{x}$ where $x=9n$. For example, $\frac{7}{11}=0.\overline{63}=0.6363636363\dots$ and $9\cdot7=63$.
+  >
   > $\frac{n}{9} = 0.\overline{x}$ where $x=11n$. For example, $\frac{7}{9}=0.\overline{77}=0.7777777777\dots$  and $11\cdot7=77$.
 
 * With edX's switch to hosting video files on their own server, the old `edx-dl` tool no longer works. Fortunately, someone has made a [fork of the repo that does work](https://github.com/RJFeddeler/edx-dl).
-
 * `ffmpeg -i video.mp4 -i audio.m4a -acodec copy -vcodec copy output.mp4` to merge separate audio and video tracks
-
 * [Quantum Flytrap](https://lab.quantumflytrap.com/lab) for super cool quantum mechanics demonstrations
-
 * List comprehensions in Haskell are brilliant. Fizzbuzz:
   ```haskell
   fizzbuzz z = [if x `mod` 3 == 0 then "fizz" else if x `mod` 5 == 0 then "buzz" 

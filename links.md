@@ -15,7 +15,6 @@ title: Links
 
 ## Misc
 * http://acko.net/blog/model-view-catharsis/
-* 
 
 ## General Reading
 * [Granta Magazine](http://granta.com/)
@@ -67,7 +66,7 @@ title: Links
 * [West End Camera Club](https://www.westendcameraclub.com/)
            
 ### Inspiration & Articles
- 
+
 * One of my favorites, [Petros Koublis](http://petroskoublis.com/main.html)
 * [Thomas Demand: The Complete De/con/struction of Our Paper Realities](http://www.americansuburbx.com/2019/01/thomas-demand-the-complete-de-con-struction-of-our-paper-realities.html)
 * [Adam Magyar, article in Medium](https://medium.com/vantage/your-commute-is-beautiful-and-adam-magyar-can-prove-it-44bbc5b235ab)

@@ -6,10 +6,6 @@ nav-links:
     url: /
   - name: Blog
     url: /blog
-  - name: Learning
-    url: /learning
-  - name: 2020 Recap
-    url: /2020-recap
 
 markdown: kramdown
 highlighter: rouge

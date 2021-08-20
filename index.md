@@ -10,13 +10,14 @@ I love startups, case competitions, hip hop dance, jazz, learning to play the sa
 
 ## Currently
 
-- 👍 Intern at Facebook on the AI and Data Developer Experience team!
-- 💻 VP of Technology Consulting at [Northeastern's TAMID chapter](https://www.nutamid.org/)
-- 🎷 Learning to play the saxophone
+- 👨‍🔬 Looking for a research internship in quantum information, available starting January 2022. [Here's](/assets/Marc Bacvanski Resume.pdf) my resume!
+- 🤏 Developing atom arrangement algorithms for large Rydberg atom arrays! Research at the University of Waterloo's [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing/), in the [Transformative Quantum Technologies](https://tqt.uwaterloo.ca/) group.
+- 👨‍💻 VP of Technology Consulting at [Northeastern's TAMID chapter](https://www.nutamid.org/)
+- 🛫 Moving back to Boston for the fall 2021 school semester!
 
 ## Recently
 
-- 👨‍🔬 Developed atom arrangement algorithms for large Rydberg atom arrays! Did research at the University of Waterloo's Institute for Quantum Computing, in the [Transformative Quantum Technologies](https://tqt.uwaterloo.ca/) group.
+- 👍 Intern at Facebook on the AI and Data Developer Experience team!
 - 🦾 Software engineering intern at [Vicarious Surgical](https://www.vicarioussurgical.com/)!
 - 🔎 Venture analyst at Northeastern's [IDEA Venture Accelerator](https://www.northeastern.edu/idea/). I'm stepping away temporarily in 2021.
 - ⚛️ Completed [CS-191x: Quantum Mechanics and Quantum Computation](https://courses.edx.org/certificates/18fb330fda7e47ec834dafaa682a5a0b), a course from UC BerkeleyX taught by Prof. Umesh Vazirani. Topics included the Quantum Fourier Transform, Grover's algorithm, Shor's algorithm, Hamiltonians, Schrödinger's equation, and manipulating physical spin qubits.
@@ -24,7 +25,7 @@ I love startups, case competitions, hip hop dance, jazz, learning to play the sa
 - 🌐 Received a [certificate](/assets/QGSS_QuantumExcellenceCertificate.pdf) from IBM's Qiskit [Global Summer School](https://qiskit.org/events/summer-school/)! I learned to use Qiskit to run quantum algorithms on real quantum hardware.
 - 🔥 Created an interactive [vibe alignment chart for Boston](/blog/vibe-of-boston)
 - 📚 Attending classes at Northeastern University
-- 👨‍💻 Lead software developer at [Deuce Technologies](https://deuce.technology/)
+- 🕴️ Lead software developer at [Deuce Technologies](https://deuce.technology/)
 - 🏙 Founder and lead organizer of the [MVHacks Hackathon](https://mvhacks.io/)
 
 ## Let's Connect!

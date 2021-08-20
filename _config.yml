@@ -6,6 +6,8 @@ nav-links:
     url: /
   - name: Blog
     url: /blog
+  - name: Resume
+    url: /assets/Marc Bacvanski Resume.pdf
 
 markdown: kramdown
 highlighter: rouge

@@ -10,13 +10,13 @@ I love startups, case competitions, hip hop dance, jazz, learning to play the sa
 
 ## Currently
 
-- ⚛️ Software intern at [QuEra Computing](https://www.quera.com/)!
-- 🤏 Working on research for atom arrangement algorithms for large Rydberg atom arrays! Research at the University of Waterloo's [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing/), in the [Transformative Quantum Technologies](https://tqt.uwaterloo.ca/) group.
-- 👨‍💻 President of [Northeastern's TAMID chapter](https://www.nutamid.org/)
-- 🛫 Moving back to Boston for the spring of 2022!
+- 🥽 Software Intern at Meta Reality Labs, where I'm building parts of the Metaverse!
+- 🛫 Back in the Bay Area for summer of 2022!
 
 ## Recently
 
+- ⚛️ Software intern at [QuEra Computing](https://www.quera.com/)! I built software for the full stack of a Rydberg array based quantum computer, ranging from low-level quantum controls to [Bloqade](https://github.com/QuEraComputing/Bloqade.jl), QuEra's high performance emulator for neutral atom quantum computing.
+- 🤏 Research at the University of Waterloo's [Institute for Quantum Computing](https://uwaterloo.ca/institute-for-quantum-computing/), in the [Transformative Quantum Technologies](https://tqt.uwaterloo.ca/) group! I worked on atom arrangement algorithms for large Rydberg atom arrays.
 - 👍 Intern at Facebook on the AI and Data Developer Experience team!
 - 🦾 Software engineering intern at [Vicarious Surgical](https://www.vicarioussurgical.com/)!
 - 🔎 Venture analyst at Northeastern's [IDEA Venture Accelerator](https://www.northeastern.edu/idea/). I'm stepping away temporarily in 2021.

@@ -10,8 +10,8 @@ I love startups, case competitions, hip hop dance, jazz, learning to play the sa
 
 ## Currently
 
-- 🥽 Software Intern at Meta Reality Labs, where I'm building parts of the Metaverse!
-- 🛫 Back in the Bay Area for summer of 2022!
+- 🥽 Software Intern at Meta Reality Labs, where I'm building new features for Horizon Worlds!
+- 🛫 Back in the Bay Area for summer 2022!
 
 ## Recently
 

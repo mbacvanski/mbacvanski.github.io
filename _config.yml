@@ -34,3 +34,10 @@ permalink: /blog/:title
 
 sass:
   style: compressed # compress the CSS file generated from the SCSS styles file
+
+plugins:
+  - jekyll-redirect-from
+
+whitelist:
+  - jekyll-redirect-from
+

@@ -4,6 +4,8 @@ title: Forward Forward Neural Networks
 mathjax: true
 ---
 
+At the NeurIPS conference in 2022, Geoffrey Hinton proposed a new architecture for training neural networks using an algorithm called [Forward-Forward](https://www.cs.toronto.edu/~hinton/FFA13.pdf). Forward-Forward is a biologically plausible alternative to the conventional backpropagation approach to training neural networks, and here I demonstrate an implementation fo the basic algorithm, applied to solve the MNIST handwritten digit classification problem.
+
 ![](../assets/2022-12-27-forward-forward-nn/2022-12-27-13-16-14-image.png)
 
 Traditional feedforward neural networks were first discovered in the 1940s as a combination of single perceptrons, and they achieved greater success as increases in computational power enabled ever larger networks to be trained. Training feedforward neural networks typically relies on backpropagation, where for each layer of the network, the weights are updated according to a gradient that is computed with respect to the layer's input.

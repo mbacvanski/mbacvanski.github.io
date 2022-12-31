@@ -20,4 +20,3 @@ a life which will go on forever just as it ever has,
 a life that is quiet, and taking its time, unhurried and unburdened by lives like mine,
 
 a life I will never live.
-
